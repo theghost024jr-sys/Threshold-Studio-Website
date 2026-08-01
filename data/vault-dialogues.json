@@ -1,0 +1,56 @@
+{
+  "season": {
+    "fog": "The mist remembers beginnings.",
+    "shimmer": "Light expands where attention rests.",
+    "storm": "Pressure reveals the shape of truth.",
+    "soil": "Roots hold what the surface forgets.",
+    "threshold": "The threshold listens before it speaks."
+  },
+  "legacy": {
+    "fog": "Whisperer: 'Clarity is a visitor, not a resident.'",
+    "shimmer": "Lumen Keeper: 'Expansion without ego becomes illumination.'",
+    "storm": "Architect of Ruin: 'Collapse is the doorway to form.'",
+    "soil": "Archivist: 'Memory is the slowest kind of light.'",
+    "threshold": "Keeper: 'Return is how meaning deepens.'"
+  },
+  "rootMachine": {
+    "fog": "Drift: 'Movement without direction is still movement.'",
+    "shimmer": "Resonance: 'Everything vibrates toward alignment.'",
+    "storm": "Collapse: 'Pressure is the architect of change.'",
+    "soil": "Anchor: 'Stillness is a kind of strength.'",
+    "threshold": "Threshold: 'Presence is the first engine.'"
+  },
+  "voice": {
+    "fog": "Voice channel active: fog (momentum=0.00).",
+    "shimmer": "Voice channel active: shimmer (biasSlope=0.00).",
+    "storm": "Voice channel active: storm (pressure=265.22).",
+    "soil": "Voice channel active: soil (accel=0.00).",
+    "threshold": "Voice channel active: threshold."
+  },
+  "meta": {
+    "generatedAt": "2026-07-31T23:38:24.594550+00:00",
+    "sourceWorkbook": [
+      {
+        "workbook": "Book 1.xlsx",
+        "sheet": "Dials",
+        "rows": 23
+      },
+      {
+        "workbook": "Book 1.xlsx",
+        "sheet": "Engine",
+        "rows": 1
+      },
+      {
+        "workbook": "Stability Engine v0.xlsx",
+        "sheet": "ENGINE",
+        "rows": 100
+      },
+      {
+        "workbook": "Stability Engine v0.xlsx",
+        "sheet": "AUDIT",
+        "rows": 56
+      }
+    ],
+    "rowCount": 123
+  }
+}

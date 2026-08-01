@@ -1,0 +1,57 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Threshold: Import External Vault",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}\\scripts\\import-threshold-vault.ps1",
+        "-VaultRoot",
+        "C:\\Threshold\\threshold\\ThresholdVault",
+        "-OutputDir",
+        "${workspaceFolder}\\data"
+      ],
+      "options": {
+        "env": {
+          "THRESHOLD_VAULT_ROOT": "C:\\Threshold\\threshold\\ThresholdVault"
+        }
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Threshold: Sync Vault Exports",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        "${workspaceFolder}\\scripts\\sync-vault.js",
+        "C:\\Threshold\\threshold\\ThresholdVault"
+      ],
+      "options": {
+        "env": {
+          "THRESHOLD_VAULT_ROOT": "C:\\Threshold\\threshold\\ThresholdVault"
+        }
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Threshold: Export Runtime JSON From Excel",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "${workspaceFolder}\\scripts\\export-runtime-json-from-excel.py",
+        "--map",
+        "${workspaceFolder}\\scripts\\excel-export-map.json",
+        "--root",
+        "C:\\StockMarket\\data\\Excel",
+        "--out-root",
+        "${workspaceFolder}"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}

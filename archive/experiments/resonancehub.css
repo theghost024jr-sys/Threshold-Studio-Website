@@ -1,0 +1,47 @@
+/* Base */
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #0f0f0f;
+  color: #f0f0f0;
+}
+
+.hub-header {
+  text-align: center;
+  padding: 2rem 1rem;
+  border-bottom: 1px solid #333;
+}
+
+.subtitle {
+  opacity: 0.7;
+  font-size: 0.9rem;
+}
+
+/* Grid Layout */
+.hub-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+/* Chamber Cards */
+.chamber {
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.chamber:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+/* Elemental Color Accents */
+.fire { border-left: 6px solid #ff6b3d; }
+.water { border-left: 6px solid #3da9ff; }
+.air { border-left: 6px solid #a8e4ff; }
+.earth { border-left: 6px solid #8b6f47; }
+.light { border-left: 6px solid #ffe97a; }

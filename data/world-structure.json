@@ -1,0 +1,234 @@
+{
+  "pedals": [
+    {
+      "id": "threshold",
+      "tone": "entry",
+      "primaryInteraction": "hover",
+      "reward": "branch_hints"
+    },
+    {
+      "id": "breath",
+      "tone": "stillness",
+      "primaryInteraction": "long_hover",
+      "reward": "seasonal_lore"
+    },
+    {
+      "id": "fracture",
+      "tone": "reframe",
+      "primaryInteraction": "click_chain",
+      "reward": "rare_channel"
+    },
+    {
+      "id": "echo",
+      "tone": "memory",
+      "primaryInteraction": "revisit",
+      "reward": "poem_fragments"
+    },
+    {
+      "id": "lantern",
+      "tone": "hospitality",
+      "primaryInteraction": "proximity_hold",
+      "reward": "lantern_vault_access"
+    },
+    {
+      "id": "compost",
+      "tone": "transformation",
+      "primaryInteraction": "multi_step",
+      "reward": "branch_rewrites"
+    }
+  ],
+  "galleries": [
+    {
+      "id": "root_archive",
+      "unlock": {
+        "hoverUnique": 5,
+        "revisits": 1
+      }
+    },
+    {
+      "id": "lantern_vault",
+      "unlock": {
+        "longHover": 3
+      }
+    },
+    {
+      "id": "storm_cabinet",
+      "unlock": {
+        "doubleClick": 2,
+        "rareEvents": 1
+      }
+    },
+    {
+      "id": "seasonal_alcove",
+      "unlock": {
+        "seasonalReveals": 4
+      }
+    }
+  ],
+  "easterEggs": {
+    "seeds": true,
+    "stars": true,
+    "vines": true,
+    "humLines": true
+  },
+  "branches": [
+    {
+      "from": "index",
+      "to": "hub",
+      "condition": "hub_active"
+    },
+    {
+      "from": "hub",
+      "to": "pedals",
+      "condition": "exploration"
+    },
+    {
+      "from": "ethos",
+      "to": "root_archive",
+      "condition": "hover_path"
+    },
+    {
+      "from": "housegarden",
+      "to": "lantern_vault",
+      "condition": "long_hover_path"
+    },
+    {
+      "from": "mythology",
+      "to": "storm_cabinet",
+      "condition": "double_click_path"
+    }
+  ],
+  "shifts": {
+    "spring": {
+      "speed": "low",
+      "opacity": "soft",
+      "palette": "cool"
+    },
+    "summer": {
+      "speed": "high",
+      "shimmer": "frequent",
+      "palette": "bright"
+    },
+    "autumn": {
+      "speed": "variable",
+      "flicker": "higher",
+      "palette": "deep"
+    },
+    "winter": {
+      "speed": "low",
+      "life": "long",
+      "palette": "dark"
+    }
+  },
+  "returns": {
+    "visit2": "guide_glyph",
+    "visit3": "rare_pool_persistent",
+    "visit5": "secret_branch",
+    "antiRepeatLore": true
+  },
+  "world": {
+    "pages": [
+      "index",
+      "ethos",
+      "glyphs",
+      "learningwheel",
+      "ledger",
+      "dialogues",
+      "mythology",
+      "housegarden",
+      "invitation",
+      "contact"
+    ],
+    "systems": [
+      "hub_engine",
+      "unlock_engine",
+      "branch_engine",
+      "shift_engine",
+      "return_engine"
+    ]
+  },
+  "pageThemes": {
+    "ethos": {
+      "theme": "foundation_compost_ache_staying",
+      "layer": "soil_roots_breath",
+      "motifs": ["soil_gradient", "root_lines", "seed_glyphs", "dusk_fade"],
+      "behaviors": ["slow_breath_opacity", "rising_vines"],
+      "hiddenHub": ["faint_universe_star", "drifting_top_glyph"]
+    },
+    "glyphs": {
+      "theme": "symbols_blossoms_pressed_myth",
+      "layer": "garden_bed",
+      "motifs": ["vine_arcs", "glyph_blossoms", "botanical_geometry", "soft_shimmer_pulses"],
+      "behaviors": ["slight_glyph_shift", "hover_reveal_meaning"],
+      "hiddenHub": ["rare_upper_corner_glyph", "cosmic_node_behind_grid"]
+    },
+    "learningwheel": {
+      "theme": "seasons_cycles_weather",
+      "layer": "seasonal_cycle",
+      "motifs": ["seasonal_gradients", "quadrant_colors", "circular_geometry", "weather_glyphs"],
+      "behaviors": ["subtle_wheel_rotation", "seasonal_fragment_pulse"],
+      "hiddenHub": ["winter_quadrant_star", "top_edge_seasonal_glyph"]
+    },
+    "ledger": {
+      "theme": "hum_lines_resonance",
+      "layer": "resonance_chamber",
+      "motifs": ["horizontal_hum_lines", "faint_oscillation", "pulse_glyphs"],
+      "behaviors": ["subtle_line_vibration", "hover_reveal_hum_text"],
+      "hiddenHub": ["top_right_pulse_node", "upward_hum_line"]
+    },
+    "dialogues": {
+      "theme": "wind_voice_silence_return",
+      "layer": "wind_room",
+      "motifs": ["soft_wind_lines", "whisper_glyphs", "silence_gaps"],
+      "behaviors": ["text_fade_cycle", "silence_gap_expand"],
+      "hiddenHub": ["upper_fade_silence_node", "upward_whisper_glyph"]
+    },
+    "mythology": {
+      "theme": "constellations_arcs_story",
+      "layer": "cosmic_chamber",
+      "motifs": ["starfield", "cosmic_arcs", "drifting_glyph_constellations"],
+      "behaviors": ["star_shimmer", "arc_pulse"],
+      "hiddenHub": ["cosmic_node", "rare_glyph_star"]
+    },
+    "housegarden": {
+      "theme": "structure_shelter_growth",
+      "layer": "home_layer",
+      "motifs": ["vine_covered_frame", "soil_texture", "garden_geometry"],
+      "behaviors": ["vine_growth_drift", "seed_pulse"],
+      "hiddenHub": ["vine_tip_to_sky", "upward_seed_glyph"]
+    },
+    "invitation": {
+      "theme": "dusk_threshold_welcome",
+      "layer": "threshold_layer",
+      "motifs": ["dusk_gradient", "soft_glow", "threshold_line"],
+      "behaviors": ["glow_pulse", "dusk_shift"],
+      "hiddenHub": ["top_shimmer_point", "dusk_star"]
+    },
+    "contact": {
+      "theme": "quiet_night_return",
+      "layer": "return_layer",
+      "motifs": ["night_gradient", "soft_stars", "quiet_glyphs"],
+      "behaviors": ["hover_bright_stars", "quiet_glyph_pulse"],
+      "hiddenHub": ["upper_corner_star", "upward_quiet_glyph"]
+    }
+  },
+  "pageContract": [
+    "visible_content",
+    "hidden_hub",
+    "constellation_hint_layer",
+    "pedal_portals",
+    "easter_eggs",
+    "branches",
+    "shifts",
+    "returns",
+    "galleries"
+  ],
+  "tracks": {
+    "A": "design_visual_theme_per_page",
+    "B": "design_hidden_hub_per_page",
+    "C": "design_easter_eggs_per_page",
+    "D": "design_galleries",
+    "E": "design_pedal_chambers",
+    "F": "map_full_threshold_world_structure"
+  }
+}

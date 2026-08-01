@@ -1,0 +1,9 @@
+﻿{
+  "name": "Threshold Studio",
+  "short_name": "Threshold",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f2f4f7",
+  "theme_color": "#002F6C",
+  "icons": []
+}

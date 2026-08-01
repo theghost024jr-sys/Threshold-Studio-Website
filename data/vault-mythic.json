@@ -1,0 +1,38 @@
+{
+  "spirit": {
+    "fog": "The Deer",
+    "shimmer": "The Whale",
+    "storm": "The Wolf",
+    "soil": "ANCHOR",
+    "threshold": "DRIVER"
+  },
+  "legacy": {
+    "fog": "DRIFTER",
+    "shimmer": "The Lumen Keeper",
+    "storm": "The Architect of Ruin",
+    "soil": "ANCHOR",
+    "threshold": "DRIVER"
+  },
+  "meta": {
+    "generatedAt": "2026-07-31T23:38:24.677700+00:00",
+    "sourceWorkbook": [
+      {
+        "workbook": "Stability Engine v0.xlsx",
+        "sheet": "INTERACTIONS",
+        "rows": 200
+      },
+      {
+        "workbook": "Stability Engine v0.xlsx",
+        "sheet": "PHYSICS",
+        "rows": 200
+      },
+      {
+        "workbook": "Stability Engine v0.xlsx",
+        "sheet": "CLUSTERS",
+        "rows": 39
+      }
+    ],
+    "interactionRows": 200,
+    "physicsRows": 200
+  }
+}

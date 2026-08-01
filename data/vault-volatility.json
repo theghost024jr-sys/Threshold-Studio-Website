@@ -1,0 +1,26 @@
+{
+  "drift": {
+    "fog": 0.95,
+    "shimmer": 1.1,
+    "storm": 1.2,
+    "soil": 0.9,
+    "threshold": 1
+  },
+  "collapse": {
+    "fog": 0.85,
+    "shimmer": 0.9,
+    "storm": 1.3,
+    "soil": 0.8,
+    "threshold": 1
+  },
+  "seasonal": {
+    "fog": 0.95,
+    "shimmer": 1.1,
+    "storm": 1.25,
+    "soil": 0.88
+  },
+  "meta": {
+    "generatedAt": "2026-07-31T00:00:00Z",
+    "source": "runtime baseline"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "matrix": {
+    "fog": {
+      "threshold": {
+        "text": "Mist listens before route decisions emerge."
+      },
+      "fog": {
+        "text": "Fog and chamber drift into gentle orientation."
+      },
+      "shimmer": {
+        "text": "Mist condenses into luminous intention."
+      },
+      "storm": {
+        "text": "Fog threads the edge of pressure." 
+      },
+      "soil": {
+        "text": "Fog settles into root memory."
+      }
+    },
+    "shimmer": {
+      "threshold": {
+        "text": "Shimmer amplifies what the threshold can hold."
+      },
+      "fog": {
+        "text": "Light clarifies the mist without forcing certainty."
+      },
+      "shimmer": {
+        "text": "Signal blooms and resonance climbs."
+      },
+      "storm": {
+        "text": "Shimmer bends against pressure and finds form."
+      },
+      "soil": {
+        "text": "Light composts into durable pattern."
+      }
+    },
+    "storm": {
+      "threshold": {
+        "text": "Pressure tests every edge of the threshold."
+      },
+      "fog": {
+        "text": "Storm tears open hidden weather channels."
+      },
+      "shimmer": {
+        "text": "Collapse becomes architecture under light."
+      },
+      "storm": {
+        "text": "Pressure folds back into itself."
+      },
+      "soil": {
+        "text": "Storm composts into grounded strength."
+      }
+    },
+    "soil": {
+      "threshold": {
+        "text": "Roots stabilize the threshold field."
+      },
+      "fog": {
+        "text": "Soil receives mist and stores signal."
+      },
+      "shimmer": {
+        "text": "Roots lift light into steady growth."
+      },
+      "storm": {
+        "text": "Soil absorbs pressure and keeps form."
+      },
+      "soil": {
+        "text": "Anchor deepens through return."
+      }
+    },
+    "threshold": {
+      "threshold": {
+        "text": "The root machine listens for the next branch."
+      }
+    }
+  },
+  "meta": {
+    "generatedAt": "2026-07-31T00:00:00Z",
+    "source": "runtime baseline"
+  }
+}

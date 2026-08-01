@@ -1,0 +1,77 @@
+/* Fullscreen layout */
+.landing {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0d0d0d; /* deep neutral black */
+  overflow: hidden;    /* allows falling elements */
+}
+
+/* Frame around the logo */
+.logo-frame {
+  padding: 40px 60px;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  position: relative;
+}
+
+/* Logo text */
+.logo {
+  font-family: "Georgia", serif;
+  font-size: 3rem;
+  color: #e6e6e6;
+  letter-spacing: 0.05em;
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  cursor: default;
+  transition: transform 0.3s ease;
+}
+
+/* Slight scale on hover */
+.logo-frame:hover .logo {
+  transform: scale(1.03);
+}
+
+/* Glyph pop-out effect */
+.logo span {
+  display: inline-block;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.logo-frame:hover .logo span {
+  transform: translateY(-10px) rotate(6deg);
+  opacity: 0.9;
+}
+
+/* Petals falling on hover */
+.logo-frame:hover::before,
+.logo-frame:hover::after {
+  content: "❀";
+  position: absolute;
+  left: 50%;
+  font-size: 1.2rem;
+  color: rgba(255, 180, 220, 0.8);
+  animation: fall 1s linear forwards;
+  pointer-events: none;
+}
+
+.logo-frame:hover::after {
+  left: 55%;
+  animation-delay: 0.15s;
+}
+
+@keyframes fall {
+  0% {
+    transform: translate(-50%, -20px) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, 120px) rotate(40deg);
+    opacity: 0;
+  }
+}

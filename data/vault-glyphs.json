@@ -1,0 +1,2975 @@
+{
+  "glyphs": [
+    {
+      "id": "naplit",
+      "node": "NAPLIT",
+      "nodeType": "UNSTABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "BQLN",
+        "CLBUKD",
+        "CDCRY"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "bqln",
+      "node": "BQLN",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "CSOAKH",
+        "UCUUC",
+        "JVBIL"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "pszxy",
+      "node": "PSZXY",
+      "nodeType": "STABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "NQY",
+        "LMGML",
+        "ZMFZ"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "axpu",
+      "node": "AXPU",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "WZTINA",
+        "CDCRY",
+        "TGYCS"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "ltgig",
+      "node": "LTGIG",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "DXM",
+        "LMGML",
+        "BWHHZ"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "nmlze",
+      "node": "NMLZE",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "MZPHQ",
+        "YALH"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "kitva",
+      "node": "KITVA",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "OFTGQ",
+        "FZQJ",
+        "UCUUC"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "wztina",
+      "node": "WZTINA",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "DBVY",
+        "FEFJI",
+        "WZYKS"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "dpmvc",
+      "node": "DPMVC",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "WAEVT",
+        "UCLOD"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "vmsc",
+      "node": "VMSC",
+      "nodeType": "STABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "YALH",
+        "OFTGQ"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "oih",
+      "node": "OIH",
+      "nodeType": "STABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "IMQU",
+        "ZVYPD",
+        "EMAC"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "wkaq",
+      "node": "WKAQ",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "HSDY",
+        "CDCRY"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "lfqhb",
+      "node": "LFQHB",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "ATDG",
+        "WOSNX",
+        "MLCN",
+        "TGXHU"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "trktw",
+      "node": "TRKTW",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "YUAB",
+        "TGYCS",
+        "THVKOD"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "mlx",
+      "node": "MLX",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "GEIV",
+        "PSSXG",
+        "TRKTW"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "dxm",
+      "node": "DXM",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "OIH",
+        "NKC",
+        "MDRE"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "dhjvu",
+      "node": "DHJVU",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "CMEQI",
+        "VSYH",
+        "NPGIK"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "imqu",
+      "node": "IMQU",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "CFD",
+        "CDGKCT",
+        "EHG"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "aifv",
+      "node": "AIFV",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "CJC",
+        "ZVYPD",
+        "AIXS"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "ndmu",
+      "node": "NDMU",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "ZUIJ",
+        "DYPZ"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "iyh",
+      "node": "IYH",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "IMQU",
+        "TZNUT",
+        "OUYF",
+        "BKTFV"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "xwdavt",
+      "node": "XWDAVT",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "ILTJJ",
+        "GRDDHH",
+        "YZT",
+        "CHJS"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "ljfuh",
+      "node": "LJFUH",
+      "nodeType": "UNSTABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "MCB",
+        "ZVYPD",
+        "UCUUC"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "gpak",
+      "node": "GPAK",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "KAEML",
+        "ATEO"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "iilar",
+      "node": "IILAR",
+      "nodeType": "STABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "XNFB",
+        "WZTINA"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "mwpv",
+      "node": "MWPV",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "BWHHZ",
+        "IILAR",
+        "OIH"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "zeris",
+      "node": "ZERIS",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "MDRE",
+        "PLOJD"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "yuab",
+      "node": "YUAB",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "AVE",
+        "ATDG"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "jiuscz",
+      "node": "JIUSCZ",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "MCB",
+        "IYH"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "loua",
+      "node": "LOUA",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "KYX",
+        "IVZG",
+        "UCUUC"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "mjes",
+      "node": "MJES",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "PRSVM",
+        "DZK"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "atdg",
+      "node": "ATDG",
+      "nodeType": "STABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "JVBIL",
+        "TGXHU",
+        "CJC"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "elvg",
+      "node": "ELVG",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "GEIV",
+        "ZVYPD"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "tvamu",
+      "node": "TVAMU",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "WXQY",
+        "WZTINA",
+        "NUCZD",
+        "ALKTMS"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "geiv",
+      "node": "GEIV",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "VMSC",
+        "LFQHB",
+        "KUHH"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "xlinbp",
+      "node": "XLINBP",
+      "nodeType": "STABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "OPUT",
+        "DBVY"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "zhzd",
+      "node": "ZHZD",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "KHQNE",
+        "NTMAS",
+        "BJQC"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "lmi",
+      "node": "LMI",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "CFD",
+        "UILQR",
+        "GEIV"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "kaeml",
+      "node": "KAEML",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "YZT",
+        "VPSCMT",
+        "RLXQXE"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "prsvm",
+      "node": "PRSVM",
+      "nodeType": "STABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "YZT",
+        "DYPZ",
+        "LCKW"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "thvkod",
+      "node": "THVKOD",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "HKUJM",
+        "CDGKCT",
+        "ZNIE"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "nodv",
+      "node": "NODV",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "TVAMU",
+        "WXQY",
+        "ZDJY"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "yyxp",
+      "node": "YYXP",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "WXQY",
+        "TVDEE",
+        "TGXHU"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "bjjy",
+      "node": "BJJY",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "ZGXZB",
+        "ATEO",
+        "ECPHB"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "zdjy",
+      "node": "ZDJY",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "DDHL",
+        "PTND",
+        "KAEML"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "ycncpa",
+      "node": "YCNCPA",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "CDGKCT",
+        "NQY",
+        "RRXE"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "bbemb",
+      "node": "BBEMB",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "EMAC",
+        "YGJO",
+        "KYX"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "sun",
+      "node": "SUN",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "WCQVL",
+        "IGTM",
+        "ZMFZ"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "npgik",
+      "node": "NPGIK",
+      "nodeType": "UNSTABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "TVAMU",
+        "NKC",
+        "OTGRF"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "fvgo",
+      "node": "FVGO",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "CMEQI",
+        "YALH",
+        "ZNH"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "ygjo",
+      "node": "YGJO",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "AZOEOF",
+        "YUAB"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "aixs",
+      "node": "AIXS",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "FZQJ",
+        "OPUT",
+        "FZQJ",
+        "BPGZX"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "fefji",
+      "node": "FEFJI",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "WVK",
+        "DBVY"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "nqy",
+      "node": "NQY",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "DHJVU",
+        "YUAB"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "cjc",
+      "node": "CJC",
+      "nodeType": "STABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "ZNIE",
+        "HJC",
+        "CEEJ",
+        "ZGXZB"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "ceej",
+      "node": "CEEJ",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "MDZ",
+        "MZPHQ"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "rlxqxe",
+      "node": "RLXQXE",
+      "nodeType": "UNSTABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "JLAW",
+        "MCB",
+        "RBDVY"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "nifpi",
+      "node": "NIFPI",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "YUAB",
+        "LTGIG",
+        "LMI"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "hbd",
+      "node": "HBD",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "ZHZD",
+        "LTHGR"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "igtm",
+      "node": "IGTM",
+      "nodeType": "STABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "IPCWP",
+        "NMCC",
+        "MDZ"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "clbukd",
+      "node": "CLBUKD",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "UCUUC",
+        "FDAT"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "kyx",
+      "node": "KYX",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "CJC",
+        "WVK",
+        "FJZDJ"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "zmfz",
+      "node": "ZMFZ",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "NTMAS",
+        "NKC",
+        "FEFJI"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "xnfb",
+      "node": "XNFB",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "BBEMB",
+        "ECPHB"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "hkujm",
+      "node": "HKUJM",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "LMI",
+        "NIFPI"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "otgrf",
+      "node": "OTGRF",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "CFD",
+        "AXPU"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "snqdez",
+      "node": "SNQDEZ",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "WZYKS",
+        "GLRGU",
+        "KITVA"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "jarul",
+      "node": "JARUL",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "AIXS",
+        "KITVA"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "ibpy",
+      "node": "IBPY",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "CDGKCT",
+        "PYO"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "vjivx",
+      "node": "VJIVX",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "OTGRF",
+        "OIJ",
+        "LMI"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "rrxe",
+      "node": "RRXE",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "PLOJD",
+        "ZHZD",
+        "UXOOHM"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "hajc",
+      "node": "HAJC",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "ZUIJ",
+        "KAEML"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "oozgv",
+      "node": "OOZGV",
+      "nodeType": "STABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "NTMAS",
+        "PYO",
+        "VVQC"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "wzyks",
+      "node": "WZYKS",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "MDRE",
+        "WDFZT"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "dtbqy",
+      "node": "DTBQY",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "LOUA",
+        "ATDG",
+        "KUHH",
+        "LTGIG"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "nuczd",
+      "node": "NUCZD",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "XNFB",
+        "DYPZ"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "vhyr",
+      "node": "VHYR",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "DBVY",
+        "FJZDJ"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "qzmki",
+      "node": "QZMKI",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "VDPGZ",
+        "CMEQI",
+        "EMAC",
+        "FDAT"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "bkn",
+      "node": "BKN",
+      "nodeType": "UNSTABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "NQY",
+        "JARUL"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "ezlhf",
+      "node": "EZLHF",
+      "nodeType": "UNSTABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "LMGML",
+        "ZMFZ"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "tgxhu",
+      "node": "TGXHU",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "VSYH",
+        "IGTM"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "jvbil",
+      "node": "JVBIL",
+      "nodeType": "STABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "ZNH",
+        "RLXQXE",
+        "NIFPI"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "vsyh",
+      "node": "VSYH",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "ZMFZ",
+        "XJNYQ",
+        "LTHGR",
+        "GRDDHH"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "msqrem",
+      "node": "MSQREM",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "FYSLBL",
+        "XNFB",
+        "BWHHZ"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "bjqc",
+      "node": "BJQC",
+      "nodeType": "STABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "IILAR",
+        "QCBS"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "wev",
+      "node": "WEV",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "HAJC",
+        "IMQU",
+        "DYPZ",
+        "MDZ"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "dypz",
+      "node": "DYPZ",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "UXOOHM",
+        "BKXG",
+        "VVQC",
+        "XOAVL"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "bpgzx",
+      "node": "BPGZX",
+      "nodeType": "UNSTABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "JILW",
+        "DXM"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "qaif",
+      "node": "QAIF",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "CMEQI",
+        "OLLTW",
+        "IPCWP"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "dbvy",
+      "node": "DBVY",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "QZMKI",
+        "GRDDHH",
+        "WIFXIH"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "vvqc",
+      "node": "VVQC",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "ELVG",
+        "THVKOD"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "znie",
+      "node": "ZNIE",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "ATDG",
+        "MFB",
+        "MLX"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "pssxg",
+      "node": "PSSXG",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "BUQLE",
+        "ZHZD"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "oput",
+      "node": "OPUT",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "AVE",
+        "LTHGR",
+        "HXDK",
+        "JILW"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "waevt",
+      "node": "WAEVT",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "YYXP",
+        "DPMVC"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "bktfv",
+      "node": "BKTFV",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "JVBIL",
+        "BQLN"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "eiobcd",
+      "node": "EIOBCD",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "YUAB",
+        "FYSLBL",
+        "MDRE"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "mzphq",
+      "node": "MZPHQ",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "GPAK",
+        "NPGIK",
+        "ZVYPD"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "khqne",
+      "node": "KHQNE",
+      "nodeType": "STABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "PSZXY",
+        "DXM"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "oftgq",
+      "node": "OFTGQ",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "WDFZT",
+        "MDRE"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "ddhl",
+      "node": "DDHL",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "KUHH",
+        "ZNIE",
+        "ZGXZB"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "mdre",
+      "node": "MDRE",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "KHQNE",
+        "NIFPI"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "zabca",
+      "node": "ZABCA",
+      "nodeType": "UNSTABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "KYX",
+        "GLRGU"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "kbuv",
+      "node": "KBUV",
+      "nodeType": "STABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "AIFV",
+        "HXDK",
+        "KYX",
+        "YALH"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "bzrgg",
+      "node": "BZRGG",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "MLX",
+        "EMAC"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "dsjvq",
+      "node": "DSJVQ",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "PLOJD",
+        "JZES",
+        "UXOOHM",
+        "AYUI"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "wifxih",
+      "node": "WIFXIH",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "IHPZG",
+        "YCNCPA",
+        "FDAT",
+        "ZABCA"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "ihpzg",
+      "node": "IHPZG",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "LJFUH",
+        "AYUI"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "ivzg",
+      "node": "IVZG",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "DPMVC",
+        "KYX"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "ntmas",
+      "node": "NTMAS",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "MSQREM",
+        "FZQJ"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "ehg",
+      "node": "EHG",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "SNQDEZ",
+        "IIHV"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "ecphb",
+      "node": "ECPHB",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "ZMFZ",
+        "OOZGV",
+        "IHPZG"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "wdfzt",
+      "node": "WDFZT",
+      "nodeType": "UNSTABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "JARUL",
+        "TVAMU",
+        "XWDAVT",
+        "ZABCA"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "fjzdj",
+      "node": "FJZDJ",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "YGJO",
+        "FDAT"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "wezf",
+      "node": "WEZF",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "TVAMU",
+        "UXOOHM",
+        "CEEJ",
+        "LMGML"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "xoavl",
+      "node": "XOAVL",
+      "nodeType": "UNSTABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "WXQY",
+        "EMAC",
+        "MSQREM"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "hjc",
+      "node": "HJC",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "ZNH",
+        "IPCWP",
+        "KITVA"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "lthgr",
+      "node": "LTHGR",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "PRSVM",
+        "LNRRF"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "bvwohr",
+      "node": "BVWOHR",
+      "nodeType": "STABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "NMCC",
+        "ZAUOG",
+        "DTBQY",
+        "LMGML"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "oij",
+      "node": "OIJ",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "RRXE",
+        "YXSOQ",
+        "XOAVL",
+        "AIXS"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "plojd",
+      "node": "PLOJD",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "DHJVU",
+        "XNFB",
+        "ILTJJ"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "ave",
+      "node": "AVE",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "TGYCS",
+        "PTND"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "yxsoq",
+      "node": "YXSOQ",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "RLXQXE",
+        "DPMVC",
+        "JZES"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "cpkn",
+      "node": "CPKN",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "UCLOD",
+        "PTND",
+        "LCKW"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "glrgu",
+      "node": "GLRGU",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "VPSCMT",
+        "QZMKI"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "emac",
+      "node": "EMAC",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "NQY",
+        "TRKTW",
+        "AIXS"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "ateo",
+      "node": "ATEO",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "VJIVX",
+        "KYX",
+        "SUN"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "znh",
+      "node": "ZNH",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "YZPKB",
+        "MLCN",
+        "ZHZD"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "zuij",
+      "node": "ZUIJ",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "MSQREM",
+        "ZDJY",
+        "DDHL"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "fyslbl",
+      "node": "FYSLBL",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "LOUA",
+        "YCNCPA",
+        "EHG"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "nkc",
+      "node": "NKC",
+      "nodeType": "STABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "JIUSCZ",
+        "KITVA"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "vdpgz",
+      "node": "VDPGZ",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "WKAQ",
+        "WEV"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "jlaw",
+      "node": "JLAW",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "NKC",
+        "XLINBP",
+        "UCLOD"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "zauog",
+      "node": "ZAUOG",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "OIJ",
+        "LFQHB",
+        "WZTINA"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "uilqr",
+      "node": "UILQR",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "JZES",
+        "ZNH",
+        "LFQHB"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "yzt",
+      "node": "YZT",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "HJC",
+        "IYH",
+        "GPAK"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "cfd",
+      "node": "CFD",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "YXSOQ",
+        "SOPXI",
+        "LTHGR"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "tznut",
+      "node": "TZNUT",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "JARUL",
+        "GRDDHH"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "uxoohm",
+      "node": "UXOOHM",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "AZOEOF",
+        "CEEJ",
+        "NAPLIT"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "uclod",
+      "node": "UCLOD",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "FVGO",
+        "TVDEE"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "mlcn",
+      "node": "MLCN",
+      "nodeType": "STABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "JUNCR",
+        "XWDAVT"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "jzes",
+      "node": "JZES",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "LMI",
+        "ZDJY",
+        "WEZF",
+        "DHJVU"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "iltjj",
+      "node": "ILTJJ",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "DHJVU",
+        "ULRP"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "fdat",
+      "node": "FDAT",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "OFTGQ",
+        "YYXP",
+        "IGTM"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "dzk",
+      "node": "DZK",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "DTBQY",
+        "CSOAKH"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "jlf",
+      "node": "JLF",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "KITVA",
+        "GLRGU"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "rbdvy",
+      "node": "RBDVY",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "SNQDEZ",
+        "NMCC"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "chjs",
+      "node": "CHJS",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "IMQU",
+        "KUHH",
+        "EIOBCD"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "qnfnwy",
+      "node": "QNFNWY",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "VJIVX",
+        "LTHGR"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "cdcry",
+      "node": "CDCRY",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "LOUA",
+        "CHJS",
+        "XJNYQ"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "hxdk",
+      "node": "HXDK",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "LCKW",
+        "BUQLE",
+        "ZAUOG"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "zgxzb",
+      "node": "ZGXZB",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "EIOBCD",
+        "SUN",
+        "RRXE",
+        "VJIVX"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "azoeof",
+      "node": "AZOEOF",
+      "nodeType": "STABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "SNQDEZ",
+        "OIJ",
+        "KBUV"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "lckw",
+      "node": "LCKW",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "ILTJJ",
+        "CPKN",
+        "WEZF"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "ucuuc",
+      "node": "UCUUC",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "XWDAVT",
+        "BQLN",
+        "UCLOD"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "cmeqi",
+      "node": "CMEQI",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "QZMKI",
+        "OIJ"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "zvypd",
+      "node": "ZVYPD",
+      "nodeType": "STABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "UCUUC",
+        "MLCN",
+        "NODV"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "vvsv",
+      "node": "VVSV",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "UXOOHM",
+        "QQJXO",
+        "WKAQ"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "ulrp",
+      "node": "ULRP",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "KAEML",
+        "KBUV",
+        "BQLN"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "yalh",
+      "node": "YALH",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "NQY",
+        "JARUL",
+        "TVDEE"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "wcqvl",
+      "node": "WCQVL",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "NIFPI",
+        "BVWOHR"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "lmgml",
+      "node": "LMGML",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "DSJVQ",
+        "GLRGU",
+        "PYO"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "kuhh",
+      "node": "KUHH",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "MLX",
+        "ZHZD",
+        "DZK"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "ipcwp",
+      "node": "IPCWP",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "BPGZX",
+        "QAIF",
+        "PSZXY"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "alktms",
+      "node": "ALKTMS",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "HKUJM",
+        "AIXS"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "ayui",
+      "node": "AYUI",
+      "nodeType": "STABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "ALKTMS",
+        "SOPXI",
+        "NQY"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "yzpkb",
+      "node": "YZPKB",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "WXQY",
+        "WVK",
+        "ZUIJ"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "ouyf",
+      "node": "OUYF",
+      "nodeType": "UNSTABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "QNFNWY",
+        "NODV",
+        "ZAUOG",
+        "CLBUKD"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "fzqj",
+      "node": "FZQJ",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "IBPY",
+        "MEDA",
+        "UCLOD",
+        "TVAMU"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "xlcg",
+      "node": "XLCG",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "ATEO",
+        "WXQY"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "qcbs",
+      "node": "QCBS",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "DSJVQ",
+        "BPGZX",
+        "MCB"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "iihv",
+      "node": "IIHV",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "VPSCMT",
+        "LOUA"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "cdgkct",
+      "node": "CDGKCT",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "YCNCPA",
+        "NKFB"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "buqle",
+      "node": "BUQLE",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "ZHZD",
+        "KBUV",
+        "OOZGV"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "grddhh",
+      "node": "GRDDHH",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "VSYH",
+        "WZYKS",
+        "PRSVM"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "xjnyq",
+      "node": "XJNYQ",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "MJES",
+        "XNFB"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "wxqy",
+      "node": "WXQY",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "THVKOD",
+        "MWPV",
+        "OOZGV"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "mcb",
+      "node": "MCB",
+      "nodeType": "STABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "KYX",
+        "YGJO",
+        "RRXE",
+        "CEEJ"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "jilw",
+      "node": "JILW",
+      "nodeType": "STABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "KUHH",
+        "CFD",
+        "HSDY"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "bkxg",
+      "node": "BKXG",
+      "nodeType": "STABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "BVWOHR",
+        "QNFNWY"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "nmcc",
+      "node": "NMCC",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "SOPXI",
+        "PLOJD",
+        "YXSOQ"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "pyo",
+      "node": "PYO",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "RBDVY",
+        "FDAT"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "mdz",
+      "node": "MDZ",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "FZQJ",
+        "KUHH"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "tgycs",
+      "node": "TGYCS",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "NKC",
+        "NMLZE"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "juncr",
+      "node": "JUNCR",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "EZLHF",
+        "XWDAVT",
+        "IGTM",
+        "HJC"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "hsdy",
+      "node": "HSDY",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "CLBUKD",
+        "HSDY",
+        "MJES"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "bwhhz",
+      "node": "BWHHZ",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "FDAT",
+        "DBVY",
+        "DXM"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "tvdee",
+      "node": "TVDEE",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "WCQVL",
+        "ZAUOG"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "csoakh",
+      "node": "CSOAKH",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "JLF",
+        "LFQHB"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "ptnd",
+      "node": "PTND",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "XLCG",
+        "NDMU"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "vpscmt",
+      "node": "VPSCMT",
+      "nodeType": "UNSTABLE",
+      "chamber": "FOG",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "GPAK",
+        "NMCC",
+        "BJQC",
+        "XLINBP"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "nkfb",
+      "node": "NKFB",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "CJC",
+        "HAJC",
+        "WEZF"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "qqjxo",
+      "node": "QQJXO",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Active",
+      "connectsTo": [
+        "DXM",
+        "NKFB",
+        "FYSLBL"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "lnrrf",
+      "node": "LNRRF",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "VSYH",
+        "AVE",
+        "LTGIG"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "wosnx",
+      "node": "WOSNX",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "PSZXY",
+        "NKC",
+        "VVQC"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "wvk",
+      "node": "WVK",
+      "nodeType": "UNSTABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "CEEJ",
+        "TRKTW",
+        "YUAB"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "olltw",
+      "node": "OLLTW",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "MLCN",
+        "IPCWP"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "meda",
+      "node": "MEDA",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "VVQC",
+        "ZERIS",
+        "OPUT"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "sopxi",
+      "node": "SOPXI",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "OFTGQ",
+        "OOZGV",
+        "OIH"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    },
+    {
+      "id": "mfb",
+      "node": "MFB",
+      "nodeType": "STABLE",
+      "chamber": "WILD",
+      "season": "storm",
+      "status": "Latent",
+      "connectsTo": [
+        "ZHZD",
+        "GEIV"
+      ],
+      "pressure": 36.492342119545995,
+      "stabilityIndex": null
+    }
+  ],
+  "meta": {
+    "generatedAt": "2026-07-31T23:38:24.728794+00:00",
+    "sourceWorkbook": [
+      {
+        "workbook": "Stability Engine v0.xlsx",
+        "sheet": "MAP3",
+        "rows": 200
+      },
+      {
+        "workbook": "Stability Engine v0.xlsx",
+        "sheet": "TERRITORY",
+        "rows": 63
+      },
+      {
+        "workbook": "Stability Engine v0.xlsx",
+        "sheet": "MAP2",
+        "rows": 200
+      }
+    ],
+    "glyphCount": 200
+  }
+}

@@ -1,0 +1,286 @@
+body {
+  margin: 0;
+  background: #001A3A;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hub {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border: 3px solid red;
+}
+
+/* Sun */
+.sun {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: #FFD447;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 20px #FFD447;
+}
+
+/* Blue inner ring */
+.inner-ring {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background: #004C99;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.7;
+}
+
+/* Elliptical orbits */
+.orbit {
+  position: absolute;
+  border: 2px solid #d4af37;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+}
+.o1 {
+  position: absolute;
+  width: 200px;
+  height: 160px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.o2 {
+  position: absolute;
+  width: 280px;
+  height: 220px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.o3 {
+  position: absolute;
+  width: 360px;
+  height: 280px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.o4 {
+  position: absolute;
+  width: 440px;
+  height: 340px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Planet wrappers (centered + rotating) */
+.planet-wrapper {   }
+
+
+/* Planets (offset to ellipse radii) */
+.planet {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: #d4af37;
+  border-radius: 50%;
+  transform-origin: center;
+}
+.p1w {
+  position: absolute;
+  width: 200px;
+  height: 160px;
+  top: 170px;
+  left: 150px;
+  animation: orbit1 8s linear infinite;
+}
+
+.p2w {
+  position: absolute;
+  width: 280px;
+  height: 220px;
+  top: 140px;
+  left: 110px;
+  animation: orbit2 11s linear infinite;
+}
+
+.p3w {
+  position: absolute;
+  width: 360px;
+  height: 280px;
+  top: 110px;
+  left: 70px;
+  animation: orbit3 14s linear infinite;
+}
+
+.p4w {
+  position: absolute;
+  width: 440px;
+  height: 340px;
+  top: 80px;
+  left: 30px;
+  animation: orbit4 17s linear infinite;
+}
+
+.p1 { transform: translateX(100px) translateY(-80px); }
+.p2 { transform: translateX(140px) translateY(-110px); }
+.p3 { transform: translateX(180px) translateY(-140px); }
+.p4 { transform: translateX(220px) translateY(-170px); }
+
+/* Rotation only — NO offsets here */
+@keyframes orbit1 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+@keyframes orbit2 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+@keyframes orbit3 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+@keyframes orbit4 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+/* Moon wrapper (same system as planets) */
+.moon-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: moonOrbit 22s linear infinite;
+}
+
+/* Moon offset to larger ellipse */
+.moon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: silver;
+  border-radius: 50%;
+  transform: translateX(260px) translateY(-200px);
+}
+
+/* Moon rotates only */
+@keyframes moonOrbit {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+/* Comet wrapper */
+.comet-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: cometOrbit 12s linear infinite;
+}
+
+/* Comet offset + tail */
+.comet {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+  transform: translateX(150px) translateY(-250px);
+  box-shadow: -25px 0 20px rgba(255,255,255,0.4);
+}
+
+/* Comet rotates only */
+@keyframes cometOrbit {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+.pulse {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  pointer-events: none;
+  animation: pulseOut 6s ease-out infinite;
+}
+
+@keyframes pulseOut {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+    background: rgba(220, 220, 220, 0.35);
+    opacity: 0.6;
+  }
+40% {
+    background: rgba(255, 200, 215, 0.22);
+}
+  70% {
+    transform: translate(-50%, -50%) scale(52); /* reaches 3rd ellipse */
+    background: rgba(255, 180, 200, 0.10);
+    opacity: 0.12;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(18);
+    opacity: 0;
+  }
+
+.hover-tuned {
+  transition: 
+    transform 220ms ease,
+    filter 220ms ease,
+    opacity 220ms ease;
+  opacity: 0.92;
+}
+
+.hover-tuned:hover {
+  transform: scale(1.025);
+  filter: brightness(1.18) saturate(1.05);
+  opacity: 1;
+}
+
+.reveal-container {
+  position: relative; /* THIS anchors the reveal */
+  display: inline-block; /* keeps it tight to the text */
+  z-index: 10;
+}
+
+.reveal {
+  position: absolute;
+  top: 100%;   /* directly below the trigger */
+  left: 0;     /* aligned to the left edge */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  background: black;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+  white-space: nowrap; /* prevents wrapping */
+  pointer-events: none; /* avoids weird hover flicker */
+}
+
+.reveal-container:hover .reveal {
+  opacity: 1;
+}
+
+
+
+
+

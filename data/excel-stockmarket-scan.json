@@ -1,0 +1,3804 @@
+[
+  {
+    "fullPath": "C:\\StockMarket\\data\\Excel\\Book 1.xlsx",
+    "fileName": "Book 1.xlsx",
+    "extension": ".xlsx",
+    "sizeBytes": 11676,
+    "lastWriteTime": "2026-05-26T04:24:23",
+    "classification": "openxml",
+    "workbook": {
+      "sheetCount": 3,
+      "hasMacros": false,
+      "sheets": [
+        {
+          "name": "INPUT",
+          "usedRange": "A1:K2",
+          "rows": 2,
+          "columns": 11,
+          "formulaCells": 0,
+          "constantCells": 12,
+          "headers": [
+            "Date",
+            "SpotClose",
+            "WeeklyCallWall",
+            "WeeklyPutWall",
+            "MonthlyCallWall",
+            "MonthlyPutWall",
+            "SixMonthCallWall",
+            "SixMonthPutWall",
+            "TotalOI_Weekly",
+            "TotalOI_Monthly",
+            "TotalOI_6Month"
+          ]
+        },
+        {
+          "name": "Engine",
+          "usedRange": "A1:Z3",
+          "rows": 3,
+          "columns": 26,
+          "formulaCells": 35,
+          "constantCells": 35,
+          "headers": [
+            "Date",
+            "SpotClose",
+            "WeeklyCallWall",
+            "WeeklyPutWall",
+            "MonthlyCallWall",
+            "MonthlyPutWall",
+            "SixMonthCallWall",
+            "SixMonthPutWall",
+            "W_DistCall",
+            "W_DistPut",
+            "W_Bias",
+            "W_Momentum"
+          ]
+        },
+        {
+          "name": "Dials",
+          "usedRange": "A1:AN24",
+          "rows": 24,
+          "columns": 40,
+          "formulaCells": 123,
+          "constantCells": 42,
+          "headers": [
+            "Date",
+            "W_Bias",
+            "W_Momentum",
+            "W_Acceleration",
+            "W_Bias_Mean",
+            "W_Momentum_Mean",
+            "W_Accel_Mean",
+            "W_Bias_Slope",
+            "W_Bias_Accel",
+            "M_Bias",
+            "M_Momentum",
+            "M_Acceleration"
+          ]
+        }
+      ]
+    },
+    "csv": null,
+    "error": null
+  },
+  {
+    "fullPath": "C:\\StockMarket\\data\\Excel\\Godot as Python Viewport \u2014 Integration Method Comparison.xlsx",
+    "fileName": "Godot as Python Viewport \u2014 Integration Method Comparison.xlsx",
+    "extension": ".xlsx",
+    "sizeBytes": 10744,
+    "lastWriteTime": "2026-07-10T14:03:59.014084",
+    "classification": "openxml",
+    "workbook": {
+      "sheetCount": 1,
+      "hasMacros": false,
+      "sheets": [
+        {
+          "name": "Comparison",
+          "usedRange": "A1:H36",
+          "rows": 36,
+          "columns": 8,
+          "formulaCells": 0,
+          "constantCells": 124,
+          "headers": [
+            "Godot as Visual Viewport \u2014 Python Integration Methods: Detailed Comparison"
+          ]
+        }
+      ]
+    },
+    "csv": null,
+    "error": null
+  },
+  {
+    "fullPath": "C:\\StockMarket\\data\\Excel\\JS-TS Gauge Library Comparison \u2014 Stock Market Cockpit.xlsx",
+    "fileName": "JS-TS Gauge Library Comparison \u2014 Stock Market Cockpit.xlsx",
+    "extension": ".xlsx",
+    "sizeBytes": 10200,
+    "lastWriteTime": "2026-07-04T16:37:21.545060",
+    "classification": "openxml",
+    "workbook": {
+      "sheetCount": 1,
+      "hasMacros": false,
+      "sheets": [
+        {
+          "name": "Overview",
+          "usedRange": "A1:M28",
+          "rows": 28,
+          "columns": 13,
+          "formulaCells": 0,
+          "constantCells": 147,
+          "headers": [
+            "JS/TS Gauge & Instrument-Panel Library Comparison for Stock Market Cockpit Dashboard \u2014 Evaluated July 2026"
+          ]
+        }
+      ]
+    },
+    "csv": null,
+    "error": null
+  },
+  {
+    "fullPath": "C:\\StockMarket\\data\\Excel\\Market System Dashboard.xlsx",
+    "fileName": "Market System Dashboard.xlsx",
+    "extension": ".xlsx",
+    "sizeBytes": 34516,
+    "lastWriteTime": "2026-07-04T17:27:01.687426",
+    "classification": "openxml",
+    "workbook": {
+      "sheetCount": 15,
+      "hasMacros": false,
+      "sheets": [
+        {
+          "name": "DASHBOARD",
+          "usedRange": "A1:Z78",
+          "rows": 78,
+          "columns": 26,
+          "formulaCells": 0,
+          "constantCells": 360,
+          "headers": [
+            "MARKET SYSTEM DASHBOARD                                                                         v2.6 | Updated: 2026-05-31"
+          ]
+        },
+        {
+          "name": "CMS_GAUGE",
+          "usedRange": "A1:L31",
+          "rows": 31,
+          "columns": 12,
+          "formulaCells": 10,
+          "constantCells": 57,
+          "headers": [
+            "CMS \u2014 COMPOSITE MARKET STRENGTH GAUGE"
+          ]
+        },
+        {
+          "name": "STRENGTH_TOTAL",
+          "usedRange": "A1:H22",
+          "rows": 22,
+          "columns": 8,
+          "formulaCells": 8,
+          "constantCells": 53,
+          "headers": [
+            "STRENGTH TOTAL \u2014 NET COMPOSITE SIGNAL"
+          ]
+        },
+        {
+          "name": "MACRO_STRESS",
+          "usedRange": "A1:F21",
+          "rows": 21,
+          "columns": 6,
+          "formulaCells": 5,
+          "constantCells": 38,
+          "headers": [
+            "MACRO STRESS INDICATOR"
+          ]
+        },
+        {
+          "name": "BREADTH_SCORE",
+          "usedRange": "A1:G26",
+          "rows": 26,
+          "columns": 7,
+          "formulaCells": 8,
+          "constantCells": 45,
+          "headers": [
+            "BREADTH SCORE \u2014 MARKET PARTICIPATION"
+          ]
+        },
+        {
+          "name": "WALL_SPY",
+          "usedRange": "A1:H27",
+          "rows": 27,
+          "columns": 8,
+          "formulaCells": 7,
+          "constantCells": 42,
+          "headers": [
+            "SPY \u2014 WALL SHEET"
+          ]
+        },
+        {
+          "name": "WALL_QQQ",
+          "usedRange": "A1:H27",
+          "rows": 27,
+          "columns": 8,
+          "formulaCells": 7,
+          "constantCells": 42,
+          "headers": [
+            "QQQ \u2014 WALL SHEET"
+          ]
+        },
+        {
+          "name": "WALL_IWM",
+          "usedRange": "A1:H27",
+          "rows": 27,
+          "columns": 8,
+          "formulaCells": 7,
+          "constantCells": 42,
+          "headers": [
+            "IWM \u2014 WALL SHEET"
+          ]
+        },
+        {
+          "name": "WALL_DIA",
+          "usedRange": "A1:H27",
+          "rows": 27,
+          "columns": 8,
+          "formulaCells": 7,
+          "constantCells": 42,
+          "headers": [
+            "DIA \u2014 WALL SHEET"
+          ]
+        },
+        {
+          "name": "STRUCTURE_TLT",
+          "usedRange": "A1:H27",
+          "rows": 27,
+          "columns": 8,
+          "formulaCells": 7,
+          "constantCells": 42,
+          "headers": [
+            "TLT \u2014 STRUCTURE-LITE SHEET"
+          ]
+        },
+        {
+          "name": "STRUCTURE_HYG",
+          "usedRange": "A1:H27",
+          "rows": 27,
+          "columns": 8,
+          "formulaCells": 7,
+          "constantCells": 42,
+          "headers": [
+            "HYG \u2014 STRUCTURE-LITE SHEET"
+          ]
+        },
+        {
+          "name": "STRUCTURE_SMH",
+          "usedRange": "A1:H27",
+          "rows": 27,
+          "columns": 8,
+          "formulaCells": 7,
+          "constantCells": 42,
+          "headers": [
+            "SMH \u2014 STRUCTURE-LITE SHEET"
+          ]
+        },
+        {
+          "name": "STRUCTURE_XBI",
+          "usedRange": "A1:H27",
+          "rows": 27,
+          "columns": 8,
+          "formulaCells": 7,
+          "constantCells": 42,
+          "headers": [
+            "XBI \u2014 STRUCTURE-LITE SHEET"
+          ]
+        },
+        {
+          "name": "SIGNAL_HISTORY",
+          "usedRange": "A1:A1",
+          "rows": 1,
+          "columns": 1,
+          "formulaCells": 0,
+          "constantCells": 0,
+          "headers": []
+        },
+        {
+          "name": "SYSTEM_ALERTS",
+          "usedRange": "A1:A1",
+          "rows": 1,
+          "columns": 1,
+          "formulaCells": 0,
+          "constantCells": 0,
+          "headers": []
+        }
+      ]
+    },
+    "csv": null,
+    "error": null
+  },
+  {
+    "fullPath": "C:\\StockMarket\\data\\Excel\\Stability Engine v0.xlsm",
+    "fileName": "Stability Engine v0.xlsm",
+    "extension": ".xlsm",
+    "sizeBytes": 313691,
+    "lastWriteTime": "2026-07-26T20:05:20.138400",
+    "classification": "openxml",
+    "workbook": {
+      "sheetCount": 24,
+      "hasMacros": true,
+      "sheets": [
+        {
+          "name": "METADATA",
+          "usedRange": "A1:C68",
+          "rows": 68,
+          "columns": 3,
+          "formulaCells": 9,
+          "constantCells": 62,
+          "headers": []
+        },
+        {
+          "name": "AUDIT",
+          "usedRange": "A1:J65",
+          "rows": 65,
+          "columns": 10,
+          "formulaCells": 55,
+          "constantCells": 151,
+          "headers": [
+            "\ud83d\udd0d INVARIANT AUDIT \u2014 MECHANICAL ENFORCEMENT"
+          ]
+        },
+        {
+          "name": "IGNITION",
+          "usedRange": "A1:B43",
+          "rows": 43,
+          "columns": 2,
+          "formulaCells": 0,
+          "constantCells": 30,
+          "headers": [
+            "This workbook is an autonomous system."
+          ]
+        },
+        {
+          "name": "SYNTHESIS",
+          "usedRange": "A1:B111",
+          "rows": 111,
+          "columns": 2,
+          "formulaCells": 6,
+          "constantCells": 75,
+          "headers": [
+            "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"
+          ]
+        },
+        {
+          "name": "GENESIS",
+          "usedRange": "A1:D101",
+          "rows": 101,
+          "columns": 4,
+          "formulaCells": 300,
+          "constantCells": 104,
+          "headers": [
+            "Ticker",
+            "Price",
+            "Volatility",
+            "State"
+          ]
+        },
+        {
+          "name": "ENGINE",
+          "usedRange": "A1:H101",
+          "rows": 101,
+          "columns": 8,
+          "formulaCells": 800,
+          "constantCells": 8,
+          "headers": [
+            "Ticker",
+            "Price",
+            "Volatility",
+            "State",
+            "MomentumScore",
+            "PressureScore",
+            "ThresholdFlag",
+            "NodeType"
+          ]
+        },
+        {
+          "name": "MAP_OLD",
+          "usedRange": "A1:D101",
+          "rows": 101,
+          "columns": 4,
+          "formulaCells": 300,
+          "constantCells": 104,
+          "headers": [
+            "NodeName",
+            "NodeType",
+            "ConnectsTo",
+            "Status"
+          ]
+        },
+        {
+          "name": "ARCHIVE",
+          "usedRange": "A1:G1000",
+          "rows": 1000,
+          "columns": 7,
+          "formulaCells": 5,
+          "constantCells": 14,
+          "headers": [
+            "Timestamp",
+            "TotalEnergy",
+            "StabilityRatio",
+            "DecayCount",
+            "InteractionCount",
+            "\ud83d\udcda ARCHIVE - Universe Memory"
+          ]
+        },
+        {
+          "name": "WORLD",
+          "usedRange": "A1:G201",
+          "rows": 201,
+          "columns": 7,
+          "formulaCells": 1000,
+          "constantCells": 10,
+          "headers": [
+            "Entity",
+            "Mass (\u2192EVOLUTION)",
+            "Charge (\u2192EVOLUTION)",
+            "Spin (\u2192EVOLUTION)",
+            "State (\u2192EVOLUTION)",
+            "ARCHITECTURE NOTE:"
+          ]
+        },
+        {
+          "name": "PHYSICS",
+          "usedRange": "A1:N201",
+          "rows": 201,
+          "columns": 14,
+          "formulaCells": 2601,
+          "constantCells": 13,
+          "headers": [
+            "Entity",
+            "Mass",
+            "Charge",
+            "Spin",
+            "State",
+            "Energy",
+            "Stability",
+            "DecayFlag",
+            "PhaseShiftChance",
+            "Role",
+            "Drift"
+          ]
+        },
+        {
+          "name": "MAP2",
+          "usedRange": "A1:D201",
+          "rows": 201,
+          "columns": 4,
+          "formulaCells": 600,
+          "constantCells": 204,
+          "headers": [
+            "Node",
+            "NodeType",
+            "ConnectsTo",
+            "Status"
+          ]
+        },
+        {
+          "name": "DASHBOARD2",
+          "usedRange": "A1:L33",
+          "rows": 33,
+          "columns": 12,
+          "formulaCells": 92,
+          "constantCells": 55,
+          "headers": [
+            "\ud83c\udf0c UNIVERSE CONTROL CENTER"
+          ]
+        },
+        {
+          "name": "EVOLUTION2",
+          "usedRange": "A1:B37",
+          "rows": 37,
+          "columns": 2,
+          "formulaCells": 1,
+          "constantCells": 18,
+          "headers": [
+            "\ud83e\uddec UNIVERSE EVOLUTION ENGINE"
+          ]
+        },
+        {
+          "name": "ARCHIVE2",
+          "usedRange": "A1:E7",
+          "rows": 7,
+          "columns": 5,
+          "formulaCells": 5,
+          "constantCells": 7,
+          "headers": [
+            "Timestamp",
+            "Total Energy",
+            "Stability Ratio",
+            "Decay Count",
+            "Interaction Count"
+          ]
+        },
+        {
+          "name": "INTERACTIONS",
+          "usedRange": "A1:L201",
+          "rows": 201,
+          "columns": 12,
+          "formulaCells": 1801,
+          "constantCells": 411,
+          "headers": [
+            "EntityA",
+            "EntityB",
+            "InteractionType",
+            "EnergyA",
+            "EnergyB",
+            "ResultEnergy",
+            "ResultState",
+            "StabilityImpact",
+            "RoleA",
+            "RoleB",
+            "InteractionBias"
+          ]
+        },
+        {
+          "name": "MAP3",
+          "usedRange": "A1:N201",
+          "rows": 201,
+          "columns": 14,
+          "formulaCells": 2400,
+          "constantCells": 414,
+          "headers": [
+            "Node",
+            "NodeType",
+            "ConnectsTo",
+            "Status",
+            "ClusterAffinity",
+            "PreviousCluster",
+            "ClusterInertia",
+            "Cluster",
+            "ClusterMass",
+            "ClusterEnergy",
+            "ClusterPressure",
+            "ClusterType"
+          ]
+        },
+        {
+          "name": "DASHBOARD3",
+          "usedRange": "A1:L18",
+          "rows": 18,
+          "columns": 12,
+          "formulaCells": 41,
+          "constantCells": 50,
+          "headers": [
+            "\u269b\ufe0f UNIVERSE DASHBOARD - PHYSICS SIMULATION"
+          ]
+        },
+        {
+          "name": "EVOLUTION3",
+          "usedRange": "A1:F45",
+          "rows": 45,
+          "columns": 6,
+          "formulaCells": 1,
+          "constantCells": 18,
+          "headers": [
+            "\ud83e\uddec EVOLUTION - MUTATION ENGINE"
+          ]
+        },
+        {
+          "name": "ARCHIVE3",
+          "usedRange": "A1:G20",
+          "rows": 20,
+          "columns": 7,
+          "formulaCells": 6,
+          "constantCells": 11,
+          "headers": [
+            "\ud83d\udcda ARCHIVE - UNIVERSE MEMORY"
+          ]
+        },
+        {
+          "name": "DASHBOARD",
+          "usedRange": "A1:L30",
+          "rows": 30,
+          "columns": 12,
+          "formulaCells": 87,
+          "constantCells": 48,
+          "headers": [
+            "\ud83c\udf0c UNIVERSE DASHBOARD"
+          ]
+        },
+        {
+          "name": "EVOLUTION",
+          "usedRange": "A1:P201",
+          "rows": 201,
+          "columns": 16,
+          "formulaCells": 2800,
+          "constantCells": 25,
+          "headers": [
+            "Entity",
+            "MutatedMass",
+            "MutatedCharge",
+            "MutatedSpin",
+            "MutatedState",
+            "StabilizedMass",
+            "\ud83e\uddec MUTATION ENGINE",
+            "Role",
+            "MassAdjustment",
+            "ChargeAdjustment",
+            "SpinAdjustment"
+          ]
+        },
+        {
+          "name": "CLUSTERS",
+          "usedRange": "A1:K43",
+          "rows": 43,
+          "columns": 11,
+          "formulaCells": 209,
+          "constantCells": 94,
+          "headers": [
+            "\ud83c\udf00 EMERGENT CLUSTERS \u2014 MACRO-STRUCTURES"
+          ]
+        },
+        {
+          "name": "LIFECYCLE",
+          "usedRange": "A1:A1",
+          "rows": 1,
+          "columns": 1,
+          "formulaCells": 0,
+          "constantCells": 1,
+          "headers": [
+            "\ud83d\udd04 ENTITY LIFECYCLE \u2014 BIRTH, DEATH, REBIRTH"
+          ]
+        },
+        {
+          "name": "TERRITORY",
+          "usedRange": "A1:AE65",
+          "rows": 65,
+          "columns": 31,
+          "formulaCells": 56,
+          "constantCells": 1055,
+          "headers": [
+            "\ud83d\uddfa\ufe0f TERRITORY MAP \u2014 Cluster Spatial Projection"
+          ]
+        }
+      ]
+    },
+    "csv": null,
+    "error": null
+  },
+  {
+    "fullPath": "C:\\StockMarket\\data\\Excel\\Stability Engine v0.xlsx",
+    "fileName": "Stability Engine v0.xlsx",
+    "extension": ".xlsx",
+    "sizeBytes": 305978,
+    "lastWriteTime": "2026-06-16T01:32:04",
+    "classification": "openxml",
+    "workbook": {
+      "sheetCount": 25,
+      "hasMacros": false,
+      "sheets": [
+        {
+          "name": "METADATA",
+          "usedRange": "A1:C68",
+          "rows": 68,
+          "columns": 3,
+          "formulaCells": 9,
+          "constantCells": 62,
+          "headers": []
+        },
+        {
+          "name": "AUDIT",
+          "usedRange": "A1:J65",
+          "rows": 65,
+          "columns": 10,
+          "formulaCells": 55,
+          "constantCells": 151,
+          "headers": [
+            "\ud83d\udd0d INVARIANT AUDIT \u2014 MECHANICAL ENFORCEMENT"
+          ]
+        },
+        {
+          "name": "IGNITION",
+          "usedRange": "A1:B43",
+          "rows": 43,
+          "columns": 2,
+          "formulaCells": 0,
+          "constantCells": 30,
+          "headers": [
+            "This workbook is an autonomous system."
+          ]
+        },
+        {
+          "name": "SYNTHESIS",
+          "usedRange": "A1:B111",
+          "rows": 111,
+          "columns": 2,
+          "formulaCells": 6,
+          "constantCells": 75,
+          "headers": [
+            "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"
+          ]
+        },
+        {
+          "name": "GENESIS",
+          "usedRange": "A1:D101",
+          "rows": 101,
+          "columns": 4,
+          "formulaCells": 300,
+          "constantCells": 104,
+          "headers": [
+            "Ticker",
+            "Price",
+            "Volatility",
+            "State"
+          ]
+        },
+        {
+          "name": "ENGINE",
+          "usedRange": "A1:H101",
+          "rows": 101,
+          "columns": 8,
+          "formulaCells": 800,
+          "constantCells": 8,
+          "headers": [
+            "Ticker",
+            "Price",
+            "Volatility",
+            "State",
+            "MomentumScore",
+            "PressureScore",
+            "ThresholdFlag",
+            "NodeType"
+          ]
+        },
+        {
+          "name": "MAP_OLD",
+          "usedRange": "A1:D101",
+          "rows": 101,
+          "columns": 4,
+          "formulaCells": 300,
+          "constantCells": 104,
+          "headers": [
+            "NodeName",
+            "NodeType",
+            "ConnectsTo",
+            "Status"
+          ]
+        },
+        {
+          "name": "ARCHIVE",
+          "usedRange": "A1:G1000",
+          "rows": 1000,
+          "columns": 7,
+          "formulaCells": 5,
+          "constantCells": 14,
+          "headers": [
+            "Timestamp",
+            "TotalEnergy",
+            "StabilityRatio",
+            "DecayCount",
+            "InteractionCount",
+            "\ud83d\udcda ARCHIVE - Universe Memory"
+          ]
+        },
+        {
+          "name": "WORLD",
+          "usedRange": "A1:G201",
+          "rows": 201,
+          "columns": 7,
+          "formulaCells": 1000,
+          "constantCells": 10,
+          "headers": [
+            "Entity",
+            "Mass (\u2192EVOLUTION)",
+            "Charge (\u2192EVOLUTION)",
+            "Spin (\u2192EVOLUTION)",
+            "State (\u2192EVOLUTION)",
+            "ARCHITECTURE NOTE:"
+          ]
+        },
+        {
+          "name": "PHYSICS",
+          "usedRange": "A1:N201",
+          "rows": 201,
+          "columns": 14,
+          "formulaCells": 2601,
+          "constantCells": 13,
+          "headers": [
+            "Entity",
+            "Mass",
+            "Charge",
+            "Spin",
+            "State",
+            "Energy",
+            "Stability",
+            "DecayFlag",
+            "PhaseShiftChance",
+            "Role",
+            "Drift"
+          ]
+        },
+        {
+          "name": "MAP2",
+          "usedRange": "A1:D201",
+          "rows": 201,
+          "columns": 4,
+          "formulaCells": 600,
+          "constantCells": 204,
+          "headers": [
+            "Node",
+            "NodeType",
+            "ConnectsTo",
+            "Status"
+          ]
+        },
+        {
+          "name": "DASHBOARD2",
+          "usedRange": "A1:L33",
+          "rows": 33,
+          "columns": 12,
+          "formulaCells": 92,
+          "constantCells": 55,
+          "headers": [
+            "\ud83c\udf0c UNIVERSE CONTROL CENTER"
+          ]
+        },
+        {
+          "name": "EVOLUTION2",
+          "usedRange": "A1:B37",
+          "rows": 37,
+          "columns": 2,
+          "formulaCells": 1,
+          "constantCells": 18,
+          "headers": [
+            "\ud83e\uddec UNIVERSE EVOLUTION ENGINE"
+          ]
+        },
+        {
+          "name": "ARCHIVE2",
+          "usedRange": "A1:E7",
+          "rows": 7,
+          "columns": 5,
+          "formulaCells": 5,
+          "constantCells": 7,
+          "headers": [
+            "Timestamp",
+            "Total Energy",
+            "Stability Ratio",
+            "Decay Count",
+            "Interaction Count"
+          ]
+        },
+        {
+          "name": "INTERACTIONS",
+          "usedRange": "A1:L201",
+          "rows": 201,
+          "columns": 12,
+          "formulaCells": 1801,
+          "constantCells": 411,
+          "headers": [
+            "EntityA",
+            "EntityB",
+            "InteractionType",
+            "EnergyA",
+            "EnergyB",
+            "ResultEnergy",
+            "ResultState",
+            "StabilityImpact",
+            "RoleA",
+            "RoleB",
+            "InteractionBias"
+          ]
+        },
+        {
+          "name": "MAP3",
+          "usedRange": "A1:N201",
+          "rows": 201,
+          "columns": 14,
+          "formulaCells": 2400,
+          "constantCells": 414,
+          "headers": [
+            "Node",
+            "NodeType",
+            "ConnectsTo",
+            "Status",
+            "ClusterAffinity",
+            "PreviousCluster",
+            "ClusterInertia",
+            "Cluster",
+            "ClusterMass",
+            "ClusterEnergy",
+            "ClusterPressure",
+            "ClusterType"
+          ]
+        },
+        {
+          "name": "DASHBOARD3",
+          "usedRange": "A1:L18",
+          "rows": 18,
+          "columns": 12,
+          "formulaCells": 41,
+          "constantCells": 50,
+          "headers": [
+            "\u269b\ufe0f UNIVERSE DASHBOARD - PHYSICS SIMULATION"
+          ]
+        },
+        {
+          "name": "Sheet1",
+          "usedRange": "A1:A1",
+          "rows": 1,
+          "columns": 1,
+          "formulaCells": 0,
+          "constantCells": 0,
+          "headers": []
+        },
+        {
+          "name": "EVOLUTION3",
+          "usedRange": "A1:F45",
+          "rows": 45,
+          "columns": 6,
+          "formulaCells": 1,
+          "constantCells": 18,
+          "headers": [
+            "\ud83e\uddec EVOLUTION - MUTATION ENGINE"
+          ]
+        },
+        {
+          "name": "ARCHIVE3",
+          "usedRange": "A1:G20",
+          "rows": 20,
+          "columns": 7,
+          "formulaCells": 6,
+          "constantCells": 11,
+          "headers": [
+            "\ud83d\udcda ARCHIVE - UNIVERSE MEMORY"
+          ]
+        },
+        {
+          "name": "DASHBOARD",
+          "usedRange": "A1:L30",
+          "rows": 30,
+          "columns": 12,
+          "formulaCells": 87,
+          "constantCells": 48,
+          "headers": [
+            "\ud83c\udf0c UNIVERSE DASHBOARD"
+          ]
+        },
+        {
+          "name": "EVOLUTION",
+          "usedRange": "A1:P201",
+          "rows": 201,
+          "columns": 16,
+          "formulaCells": 2800,
+          "constantCells": 25,
+          "headers": [
+            "Entity",
+            "MutatedMass",
+            "MutatedCharge",
+            "MutatedSpin",
+            "MutatedState",
+            "StabilizedMass",
+            "\ud83e\uddec MUTATION ENGINE",
+            "Role",
+            "MassAdjustment",
+            "ChargeAdjustment",
+            "SpinAdjustment"
+          ]
+        },
+        {
+          "name": "CLUSTERS",
+          "usedRange": "A1:K43",
+          "rows": 43,
+          "columns": 11,
+          "formulaCells": 209,
+          "constantCells": 94,
+          "headers": [
+            "\ud83c\udf00 EMERGENT CLUSTERS \u2014 MACRO-STRUCTURES"
+          ]
+        },
+        {
+          "name": "LIFECYCLE",
+          "usedRange": "A1:A1",
+          "rows": 1,
+          "columns": 1,
+          "formulaCells": 0,
+          "constantCells": 1,
+          "headers": [
+            "\ud83d\udd04 ENTITY LIFECYCLE \u2014 BIRTH, DEATH, REBIRTH"
+          ]
+        },
+        {
+          "name": "TERRITORY",
+          "usedRange": "A1:AE65",
+          "rows": 65,
+          "columns": 31,
+          "formulaCells": 56,
+          "constantCells": 1055,
+          "headers": [
+            "\ud83d\uddfa\ufe0f TERRITORY MAP \u2014 Cluster Spatial Projection"
+          ]
+        }
+      ]
+    },
+    "csv": null,
+    "error": null
+  },
+  {
+    "fullPath": "C:\\StockMarket\\data\\Excel\\StabilityEngine_v0_minimal.xlsx",
+    "fileName": "StabilityEngine_v0_minimal.xlsx",
+    "extension": ".xlsx",
+    "sizeBytes": 302417,
+    "lastWriteTime": "2026-07-26T20:03:40.213899",
+    "classification": "openxml",
+    "workbook": {
+      "sheetCount": 25,
+      "hasMacros": false,
+      "sheets": [
+        {
+          "name": "METADATA",
+          "usedRange": "A1:C68",
+          "rows": 68,
+          "columns": 3,
+          "formulaCells": 9,
+          "constantCells": 62,
+          "headers": []
+        },
+        {
+          "name": "AUDIT",
+          "usedRange": "A1:J65",
+          "rows": 65,
+          "columns": 10,
+          "formulaCells": 55,
+          "constantCells": 151,
+          "headers": [
+            "\ud83d\udd0d INVARIANT AUDIT \u2014 MECHANICAL ENFORCEMENT"
+          ]
+        },
+        {
+          "name": "IGNITION",
+          "usedRange": "A1:B43",
+          "rows": 43,
+          "columns": 2,
+          "formulaCells": 0,
+          "constantCells": 30,
+          "headers": [
+            "This workbook is an autonomous system."
+          ]
+        },
+        {
+          "name": "SYNTHESIS",
+          "usedRange": "A1:B111",
+          "rows": 111,
+          "columns": 2,
+          "formulaCells": 6,
+          "constantCells": 75,
+          "headers": [
+            "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"
+          ]
+        },
+        {
+          "name": "GENESIS",
+          "usedRange": "A1:D101",
+          "rows": 101,
+          "columns": 4,
+          "formulaCells": 300,
+          "constantCells": 104,
+          "headers": [
+            "Ticker",
+            "Price",
+            "Volatility",
+            "State"
+          ]
+        },
+        {
+          "name": "ENGINE",
+          "usedRange": "A1:H101",
+          "rows": 101,
+          "columns": 8,
+          "formulaCells": 800,
+          "constantCells": 8,
+          "headers": [
+            "Ticker",
+            "Price",
+            "Volatility",
+            "State",
+            "MomentumScore",
+            "PressureScore",
+            "ThresholdFlag",
+            "NodeType"
+          ]
+        },
+        {
+          "name": "MAP_OLD",
+          "usedRange": "A1:D101",
+          "rows": 101,
+          "columns": 4,
+          "formulaCells": 300,
+          "constantCells": 104,
+          "headers": [
+            "NodeName",
+            "NodeType",
+            "ConnectsTo",
+            "Status"
+          ]
+        },
+        {
+          "name": "ARCHIVE",
+          "usedRange": "A1:G1000",
+          "rows": 1000,
+          "columns": 7,
+          "formulaCells": 5,
+          "constantCells": 14,
+          "headers": [
+            "Timestamp",
+            "TotalEnergy",
+            "StabilityRatio",
+            "DecayCount",
+            "InteractionCount",
+            "\ud83d\udcda ARCHIVE - Universe Memory"
+          ]
+        },
+        {
+          "name": "WORLD",
+          "usedRange": "A1:G201",
+          "rows": 201,
+          "columns": 7,
+          "formulaCells": 1000,
+          "constantCells": 10,
+          "headers": [
+            "Entity",
+            "Mass (\u2192EVOLUTION)",
+            "Charge (\u2192EVOLUTION)",
+            "Spin (\u2192EVOLUTION)",
+            "State (\u2192EVOLUTION)",
+            "ARCHITECTURE NOTE:"
+          ]
+        },
+        {
+          "name": "PHYSICS",
+          "usedRange": "A1:N201",
+          "rows": 201,
+          "columns": 14,
+          "formulaCells": 2601,
+          "constantCells": 13,
+          "headers": [
+            "Entity",
+            "Mass",
+            "Charge",
+            "Spin",
+            "State",
+            "Energy",
+            "Stability",
+            "DecayFlag",
+            "PhaseShiftChance",
+            "Role",
+            "Drift"
+          ]
+        },
+        {
+          "name": "MAP2",
+          "usedRange": "A1:D201",
+          "rows": 201,
+          "columns": 4,
+          "formulaCells": 600,
+          "constantCells": 204,
+          "headers": [
+            "Node",
+            "NodeType",
+            "ConnectsTo",
+            "Status"
+          ]
+        },
+        {
+          "name": "DASHBOARD2",
+          "usedRange": "A1:L33",
+          "rows": 33,
+          "columns": 12,
+          "formulaCells": 92,
+          "constantCells": 55,
+          "headers": [
+            "\ud83c\udf0c UNIVERSE CONTROL CENTER"
+          ]
+        },
+        {
+          "name": "EVOLUTION2",
+          "usedRange": "A1:B37",
+          "rows": 37,
+          "columns": 2,
+          "formulaCells": 1,
+          "constantCells": 18,
+          "headers": [
+            "\ud83e\uddec UNIVERSE EVOLUTION ENGINE"
+          ]
+        },
+        {
+          "name": "ARCHIVE2",
+          "usedRange": "A1:E7",
+          "rows": 7,
+          "columns": 5,
+          "formulaCells": 5,
+          "constantCells": 7,
+          "headers": [
+            "Timestamp",
+            "Total Energy",
+            "Stability Ratio",
+            "Decay Count",
+            "Interaction Count"
+          ]
+        },
+        {
+          "name": "INTERACTIONS",
+          "usedRange": "A1:L201",
+          "rows": 201,
+          "columns": 12,
+          "formulaCells": 1801,
+          "constantCells": 411,
+          "headers": [
+            "EntityA",
+            "EntityB",
+            "InteractionType",
+            "EnergyA",
+            "EnergyB",
+            "ResultEnergy",
+            "ResultState",
+            "StabilityImpact",
+            "RoleA",
+            "RoleB",
+            "InteractionBias"
+          ]
+        },
+        {
+          "name": "MAP3",
+          "usedRange": "A1:N201",
+          "rows": 201,
+          "columns": 14,
+          "formulaCells": 2400,
+          "constantCells": 414,
+          "headers": [
+            "Node",
+            "NodeType",
+            "ConnectsTo",
+            "Status",
+            "ClusterAffinity",
+            "PreviousCluster",
+            "ClusterInertia",
+            "Cluster",
+            "ClusterMass",
+            "ClusterEnergy",
+            "ClusterPressure",
+            "ClusterType"
+          ]
+        },
+        {
+          "name": "DASHBOARD3",
+          "usedRange": "A1:L18",
+          "rows": 18,
+          "columns": 12,
+          "formulaCells": 41,
+          "constantCells": 50,
+          "headers": [
+            "\u269b\ufe0f UNIVERSE DASHBOARD - PHYSICS SIMULATION"
+          ]
+        },
+        {
+          "name": "Sheet1",
+          "usedRange": "A1:A1",
+          "rows": 1,
+          "columns": 1,
+          "formulaCells": 0,
+          "constantCells": 0,
+          "headers": []
+        },
+        {
+          "name": "EVOLUTION3",
+          "usedRange": "A1:F45",
+          "rows": 45,
+          "columns": 6,
+          "formulaCells": 1,
+          "constantCells": 18,
+          "headers": [
+            "\ud83e\uddec EVOLUTION - MUTATION ENGINE"
+          ]
+        },
+        {
+          "name": "ARCHIVE3",
+          "usedRange": "A1:G20",
+          "rows": 20,
+          "columns": 7,
+          "formulaCells": 6,
+          "constantCells": 11,
+          "headers": [
+            "\ud83d\udcda ARCHIVE - UNIVERSE MEMORY"
+          ]
+        },
+        {
+          "name": "DASHBOARD",
+          "usedRange": "A1:L30",
+          "rows": 30,
+          "columns": 12,
+          "formulaCells": 87,
+          "constantCells": 48,
+          "headers": [
+            "\ud83c\udf0c UNIVERSE DASHBOARD"
+          ]
+        },
+        {
+          "name": "EVOLUTION",
+          "usedRange": "A1:P201",
+          "rows": 201,
+          "columns": 16,
+          "formulaCells": 2800,
+          "constantCells": 25,
+          "headers": [
+            "Entity",
+            "MutatedMass",
+            "MutatedCharge",
+            "MutatedSpin",
+            "MutatedState",
+            "StabilizedMass",
+            "\ud83e\uddec MUTATION ENGINE",
+            "Role",
+            "MassAdjustment",
+            "ChargeAdjustment",
+            "SpinAdjustment"
+          ]
+        },
+        {
+          "name": "CLUSTERS",
+          "usedRange": "A1:K43",
+          "rows": 43,
+          "columns": 11,
+          "formulaCells": 209,
+          "constantCells": 94,
+          "headers": [
+            "\ud83c\udf00 EMERGENT CLUSTERS \u2014 MACRO-STRUCTURES"
+          ]
+        },
+        {
+          "name": "LIFECYCLE",
+          "usedRange": "A1:A1",
+          "rows": 1,
+          "columns": 1,
+          "formulaCells": 0,
+          "constantCells": 1,
+          "headers": [
+            "\ud83d\udd04 ENTITY LIFECYCLE \u2014 BIRTH, DEATH, REBIRTH"
+          ]
+        },
+        {
+          "name": "TERRITORY",
+          "usedRange": "A1:AE65",
+          "rows": 65,
+          "columns": 31,
+          "formulaCells": 56,
+          "constantCells": 1055,
+          "headers": [
+            "\ud83d\uddfa\ufe0f TERRITORY MAP \u2014 Cluster Spatial Projection"
+          ]
+        }
+      ]
+    },
+    "csv": null,
+    "error": null
+  },
+  {
+    "fullPath": "C:\\StockMarket\\data\\Excel\\StockMarketCockpit API Test Tracker.xlsx",
+    "fileName": "StockMarketCockpit API Test Tracker.xlsx",
+    "extension": ".xlsx",
+    "sizeBytes": 33404,
+    "lastWriteTime": "2026-07-04T16:24:16.361173",
+    "classification": "openxml",
+    "workbook": {
+      "sheetCount": 11,
+      "hasMacros": false,
+      "sheets": [
+        {
+          "name": "\ud83d\udccb Overview",
+          "usedRange": "A1:H29",
+          "rows": 29,
+          "columns": 8,
+          "formulaCells": 0,
+          "constantCells": 115,
+          "headers": [
+            "StockMarketCockpit API Test Tracker"
+          ]
+        },
+        {
+          "name": "\ud83d\udce1 Market Data",
+          "usedRange": "A1:H9",
+          "rows": 9,
+          "columns": 8,
+          "formulaCells": 0,
+          "constantCells": 72,
+          "headers": [
+            "Endpoint Path",
+            "HTTP Method",
+            "Request Params / Body",
+            "Expected Response Fields",
+            "Implementation Status",
+            "Test Status",
+            "Error Handling Behavior",
+            "Notes"
+          ]
+        },
+        {
+          "name": "\ud83d\udcca Indicators",
+          "usedRange": "A1:H9",
+          "rows": 9,
+          "columns": 8,
+          "formulaCells": 0,
+          "constantCells": 72,
+          "headers": [
+            "Endpoint Path",
+            "HTTP Method",
+            "Request Params / Body",
+            "Expected Response Fields",
+            "Implementation Status",
+            "Test Status",
+            "Error Handling Behavior",
+            "Notes"
+          ]
+        },
+        {
+          "name": "\ud83d\udcbc Risk & Portfolio",
+          "usedRange": "A1:H9",
+          "rows": 9,
+          "columns": 8,
+          "formulaCells": 0,
+          "constantCells": 72,
+          "headers": [
+            "Endpoint Path",
+            "HTTP Method",
+            "Request Params / Body",
+            "Expected Response Fields",
+            "Implementation Status",
+            "Test Status",
+            "Error Handling Behavior",
+            "Notes"
+          ]
+        },
+        {
+          "name": "\ud83d\udcf0 News & Sentiment",
+          "usedRange": "A1:H7",
+          "rows": 7,
+          "columns": 8,
+          "formulaCells": 0,
+          "constantCells": 56,
+          "headers": [
+            "Endpoint Path",
+            "HTTP Method",
+            "Request Params / Body",
+            "Expected Response Fields",
+            "Implementation Status",
+            "Test Status",
+            "Error Handling Behavior",
+            "Notes"
+          ]
+        },
+        {
+          "name": "\ud83d\udc41\ufe0f Watchlist",
+          "usedRange": "A1:H8",
+          "rows": 8,
+          "columns": 8,
+          "formulaCells": 0,
+          "constantCells": 64,
+          "headers": [
+            "Endpoint Path",
+            "HTTP Method",
+            "Request Params / Body",
+            "Expected Response Fields",
+            "Implementation Status",
+            "Test Status",
+            "Error Handling Behavior",
+            "Notes"
+          ]
+        },
+        {
+          "name": "\ud83d\udd14 Alerts",
+          "usedRange": "A1:H8",
+          "rows": 8,
+          "columns": 8,
+          "formulaCells": 0,
+          "constantCells": 64,
+          "headers": [
+            "Endpoint Path",
+            "HTTP Method",
+            "Request Params / Body",
+            "Expected Response Fields",
+            "Implementation Status",
+            "Test Status",
+            "Error Handling Behavior",
+            "Notes"
+          ]
+        },
+        {
+          "name": "\ud83c\udf9b\ufe0f Control & Mode",
+          "usedRange": "A1:H8",
+          "rows": 8,
+          "columns": 8,
+          "formulaCells": 0,
+          "constantCells": 64,
+          "headers": [
+            "Endpoint Path",
+            "HTTP Method",
+            "Request Params / Body",
+            "Expected Response Fields",
+            "Implementation Status",
+            "Test Status",
+            "Error Handling Behavior",
+            "Notes"
+          ]
+        },
+        {
+          "name": "\ud83d\udcc8 Charting",
+          "usedRange": "A1:H9",
+          "rows": 9,
+          "columns": 8,
+          "formulaCells": 0,
+          "constantCells": 72,
+          "headers": [
+            "Endpoint Path",
+            "HTTP Method",
+            "Request Params / Body",
+            "Expected Response Fields",
+            "Implementation Status",
+            "Test Status",
+            "Error Handling Behavior",
+            "Notes"
+          ]
+        },
+        {
+          "name": "\ud83e\ude7a System Diagnostics",
+          "usedRange": "A1:H8",
+          "rows": 8,
+          "columns": 8,
+          "formulaCells": 0,
+          "constantCells": 64,
+          "headers": [
+            "Endpoint Path",
+            "HTTP Method",
+            "Request Params / Body",
+            "Expected Response Fields",
+            "Implementation Status",
+            "Test Status",
+            "Error Handling Behavior",
+            "Notes"
+          ]
+        },
+        {
+          "name": "\ud83d\udcdd Error Code Reference",
+          "usedRange": "A1:E15",
+          "rows": 15,
+          "columns": 5,
+          "formulaCells": 0,
+          "constantCells": 66,
+          "headers": [
+            "HTTP Status Code",
+            "Error Code",
+            "Meaning",
+            "Common Triggers",
+            "Recommended Client Action"
+          ]
+        }
+      ]
+    },
+    "csv": null,
+    "error": null
+  },
+  {
+    "fullPath": "C:\\StockMarket\\data\\Excel\\stocktemplate (version 2).xlsx",
+    "fileName": "stocktemplate (version 2).xlsx",
+    "extension": ".xlsx",
+    "sizeBytes": 266979,
+    "lastWriteTime": "2026-07-15T14:51:18.492024",
+    "classification": "openxml",
+    "workbook": {
+      "sheetCount": 66,
+      "hasMacros": false,
+      "sheets": [
+        {
+          "name": "EXECUTIVE_SUMMARY",
+          "usedRange": "A1:D58",
+          "rows": 58,
+          "columns": 4,
+          "formulaCells": 0,
+          "constantCells": 120,
+          "headers": [
+            "\ud83d\udcca WORKBOOK EXECUTIVE SUMMARY"
+          ]
+        },
+        {
+          "name": "SWITCHBOARD",
+          "usedRange": "A1:E23",
+          "rows": 23,
+          "columns": 5,
+          "formulaCells": 15,
+          "constantCells": 38,
+          "headers": [
+            "\ud83c\udf9b\ufe0f MASTER SWITCHBOARD \u2014 Morning Cockpit"
+          ]
+        },
+        {
+          "name": "COCKPIT_UI",
+          "usedRange": "A1:AJ112",
+          "rows": 112,
+          "columns": 36,
+          "formulaCells": 106,
+          "constantCells": 368,
+          "headers": [
+            "\ud83d\udcc8 CMS VALUE",
+            "\ud83e\udded REGIME",
+            "\ud83d\udcaa STRENGTH"
+          ]
+        },
+        {
+          "name": "DASHBOARD",
+          "usedRange": "A1:AC194",
+          "rows": 194,
+          "columns": 29,
+          "formulaCells": 281,
+          "constantCells": 387,
+          "headers": [
+            "OPTIONS FLOW FIELD \u2014 MARKET MASTER PANEL"
+          ]
+        },
+        {
+          "name": "PYTHON_SETUP",
+          "usedRange": "A1:F431",
+          "rows": 431,
+          "columns": 6,
+          "formulaCells": 0,
+          "constantCells": 758,
+          "headers": [
+            "\ud83d\udc0d PYTHON \u2192 EXCEL INTEGRATION MAP"
+          ]
+        },
+        {
+          "name": "MASTER_DASHBOARD",
+          "usedRange": "A1:P24",
+          "rows": 24,
+          "columns": 16,
+          "formulaCells": 72,
+          "constantCells": 130,
+          "headers": [
+            "FLOW FIELD DATA",
+            "Ticker",
+            "X_Trend",
+            "Y_CMS",
+            "dX",
+            "dY",
+            "ENERGY LANDSCAPE",
+            "Ticker",
+            "TrendState",
+            "AdjCMS",
+            "Energy"
+          ]
+        },
+        {
+          "name": "COCKPIT",
+          "usedRange": "A1:AJ57",
+          "rows": 57,
+          "columns": 36,
+          "formulaCells": 40,
+          "constantCells": 89,
+          "headers": [
+            "MARKET COCKPIT"
+          ]
+        },
+        {
+          "name": "SECTOR_HEATMAP",
+          "usedRange": "A1:K32",
+          "rows": 32,
+          "columns": 11,
+          "formulaCells": 53,
+          "constantCells": 45,
+          "headers": [
+            "SECTOR ROTATION HEATMAP"
+          ]
+        },
+        {
+          "name": "VIZ_PANEL",
+          "usedRange": "A1:H12",
+          "rows": 12,
+          "columns": 8,
+          "formulaCells": 17,
+          "constantCells": 20,
+          "headers": [
+            "SYSTEM STATUS PANEL"
+          ]
+        },
+        {
+          "name": "CORRELATION_MAP",
+          "usedRange": "A1:H7",
+          "rows": 7,
+          "columns": 8,
+          "formulaCells": 6,
+          "constantCells": 50,
+          "headers": [
+            "Ticker",
+            "SPY",
+            "QQQ",
+            "TLT",
+            "IWM",
+            "GLD",
+            "BTC",
+            "Cluster"
+          ]
+        },
+        {
+          "name": "MACRO_SUMMARY",
+          "usedRange": "A1:F23",
+          "rows": 23,
+          "columns": 6,
+          "formulaCells": 13,
+          "constantCells": 22,
+          "headers": [
+            "Macro Summary Panel"
+          ]
+        },
+        {
+          "name": "MACRO_STRESS",
+          "usedRange": "A1:I35",
+          "rows": 35,
+          "columns": 9,
+          "formulaCells": 32,
+          "constantCells": 50,
+          "headers": [
+            "MACRO STRESS ENGINE \u2014 CONSOLIDATED"
+          ]
+        },
+        {
+          "name": "REGIME_STATE",
+          "usedRange": "A1:G35",
+          "rows": 35,
+          "columns": 7,
+          "formulaCells": 15,
+          "constantCells": 29,
+          "headers": [
+            "REGIME STATE INDICATOR"
+          ]
+        },
+        {
+          "name": "REGIME_TIMELINE",
+          "usedRange": "A1:I6",
+          "rows": 6,
+          "columns": 9,
+          "formulaCells": 45,
+          "constantCells": 9,
+          "headers": [
+            "Date",
+            "Regime",
+            "TrendDial",
+            "RiskDial",
+            "Energy",
+            "Chaos",
+            "MetaField",
+            "ProjUp",
+            "ProjDown"
+          ]
+        },
+        {
+          "name": "REGIME_TRANSITIONS",
+          "usedRange": "A1:S100",
+          "rows": 100,
+          "columns": 19,
+          "formulaCells": 21,
+          "constantCells": 54,
+          "headers": [
+            "Date",
+            "SPY",
+            "QQQ",
+            "TLT",
+            "IWM",
+            "GLD",
+            "BTC",
+            "SPY_Code",
+            "QQQ_Code",
+            "TLT_Code",
+            "IWM_Code",
+            "GLD_Code"
+          ]
+        },
+        {
+          "name": "VOL_DASH",
+          "usedRange": "A1:R27",
+          "rows": 27,
+          "columns": 18,
+          "formulaCells": 133,
+          "constantCells": 37,
+          "headers": [
+            "\ud83d\udd25 VOLATILITY PRESSURE DASHBOARD"
+          ]
+        },
+        {
+          "name": "VOL_SIGNALS",
+          "usedRange": "A1:U25",
+          "rows": 25,
+          "columns": 21,
+          "formulaCells": 384,
+          "constantCells": 49,
+          "headers": [
+            "Date",
+            "MOVE",
+            "MOVE_StDev_10d",
+            "MOVE_Instability_Signal",
+            "VIX",
+            "SPX_Return",
+            "VIX_Response_Signal",
+            "SKEW",
+            "Skew_Signal",
+            "VVIX",
+            "VVIX_Divergence_Signal",
+            "Gamma_Proxy"
+          ]
+        },
+        {
+          "name": "VOL_INPUTS",
+          "usedRange": "A1:M25",
+          "rows": 25,
+          "columns": 13,
+          "formulaCells": 77,
+          "constantCells": 20,
+          "headers": [
+            "Date",
+            "MOVE",
+            "VIX",
+            "VVIX",
+            "SKEW",
+            "SPX_Close",
+            "SPX_Return",
+            "10Y_Yield",
+            "TLT_Close",
+            "Correlation_SPX_10Y",
+            "\ud83d\udd34 LIVE FROM COCKPIT"
+          ]
+        },
+        {
+          "name": "VOLATILITY",
+          "usedRange": "A1:M2",
+          "rows": 2,
+          "columns": 13,
+          "formulaCells": 10,
+          "constantCells": 16,
+          "headers": [
+            "Date",
+            "VIX",
+            "VIX_Vel",
+            "VIX_Accel",
+            "MOVE",
+            "MOVE_Vel",
+            "MOVE_Accel",
+            "Fragility",
+            "VIX_Score",
+            "MOVE_Score",
+            "Vel_Score",
+            "Fragility_Score"
+          ]
+        },
+        {
+          "name": "ALERT_LOG",
+          "usedRange": "A1:J41",
+          "rows": 41,
+          "columns": 10,
+          "formulaCells": 32,
+          "constantCells": 51,
+          "headers": [
+            "AUTO-TIMESTAMP ALERT LOG"
+          ]
+        },
+        {
+          "name": "OPERATOR_NOTES",
+          "usedRange": "A1:F36",
+          "rows": 36,
+          "columns": 6,
+          "formulaCells": 10,
+          "constantCells": 29,
+          "headers": [
+            "OPERATOR NOTES \u2014 DAILY LOG"
+          ]
+        },
+        {
+          "name": "QUICK_REFERENCE",
+          "usedRange": "A1:H39",
+          "rows": 39,
+          "columns": 8,
+          "formulaCells": 0,
+          "constantCells": 158,
+          "headers": [
+            "QUICK REFERENCE CARD \u2014 OPERATOR CHEAT SHEET"
+          ]
+        },
+        {
+          "name": "FORMATTING_GUIDE",
+          "usedRange": "A1:H48",
+          "rows": 48,
+          "columns": 8,
+          "formulaCells": 10,
+          "constantCells": 158,
+          "headers": [
+            "EXCEL FORMATTING INSTRUCTIONS \u2014 COCKPIT THEME"
+          ]
+        },
+        {
+          "name": "TIMELINES",
+          "usedRange": "A1:I23",
+          "rows": 23,
+          "columns": 9,
+          "formulaCells": 140,
+          "constantCells": 16,
+          "headers": [
+            "TIME SERIES VISUALIZATION CENTER"
+          ]
+        },
+        {
+          "name": "RETURNS",
+          "usedRange": "A1:C2",
+          "rows": 2,
+          "columns": 3,
+          "formulaCells": 3,
+          "constantCells": 3,
+          "headers": [
+            "Ticker",
+            "Date",
+            "Return"
+          ]
+        },
+        {
+          "name": "PORTFOLIO",
+          "usedRange": "A1:M8",
+          "rows": 8,
+          "columns": 13,
+          "formulaCells": 61,
+          "constantCells": 19,
+          "headers": [
+            "Ticker",
+            "RiskBucket",
+            "AdjustedCMS",
+            "ActivePosition",
+            "RawWeight",
+            "NormalizedWeight",
+            "FinalWeight",
+            "Notes",
+            "WeightBar",
+            "MaxExposure",
+            "PORTFOLIO SUMMARY"
+          ]
+        },
+        {
+          "name": "PIVOTS",
+          "usedRange": "A1:E10",
+          "rows": 10,
+          "columns": 5,
+          "formulaCells": 6,
+          "constantCells": 15,
+          "headers": [
+            "PIVOT ANALYSIS CENTER",
+            "QUICK SUMMARY"
+          ]
+        },
+        {
+          "name": "SIGNALS",
+          "usedRange": "A1:N3",
+          "rows": 3,
+          "columns": 14,
+          "formulaCells": 26,
+          "constantCells": 16,
+          "headers": [
+            "Ticker",
+            "Date",
+            "TrendState",
+            "CMS",
+            "AdjustedCMS",
+            "PositionSize",
+            "ActivePosition",
+            "SmoothedPosition",
+            "RegimeLabel",
+            "FlipSignal",
+            "EntrySignal",
+            "ExitSignal"
+          ]
+        },
+        {
+          "name": "MATRIX",
+          "usedRange": "A1:K8",
+          "rows": 8,
+          "columns": 11,
+          "formulaCells": 0,
+          "constantCells": 68,
+          "headers": [
+            "Ticker",
+            "TrendState",
+            "CMS",
+            "AdjustedCMS",
+            "RiskBucket",
+            "RegimeLabel",
+            "FlipSignal",
+            "ActivePosition",
+            "TrendSparkline",
+            "CMSSparkline",
+            "ActiveSparkline"
+          ]
+        },
+        {
+          "name": "Dials",
+          "usedRange": "A1:C59",
+          "rows": 59,
+          "columns": 3,
+          "formulaCells": 40,
+          "constantCells": 80,
+          "headers": [
+            "DIALS - Current State",
+            "<openpyxl.worksheet.formula.ArrayFormula object at 0x0000013A085D5670>"
+          ]
+        },
+        {
+          "name": "DIALS_WEEKLY",
+          "usedRange": "A1:H3",
+          "rows": 3,
+          "columns": 8,
+          "formulaCells": 9,
+          "constantCells": 9,
+          "headers": [
+            "Ticker",
+            "Bias_Mean",
+            "Bias_Slope",
+            "Bias_Accel",
+            "PositionScore",
+            "SlopeScore",
+            "AccelScore",
+            "DialStrength"
+          ]
+        },
+        {
+          "name": "DIALS_MONTHLY",
+          "usedRange": "A1:H3",
+          "rows": 3,
+          "columns": 8,
+          "formulaCells": 9,
+          "constantCells": 9,
+          "headers": [
+            "Ticker",
+            "Bias_Mean",
+            "Bias_Slope",
+            "Bias_Accel",
+            "PositionScore",
+            "SlopeScore",
+            "AccelScore",
+            "DialStrength"
+          ]
+        },
+        {
+          "name": "DIALS_6MO",
+          "usedRange": "A1:H3",
+          "rows": 3,
+          "columns": 8,
+          "formulaCells": 9,
+          "constantCells": 9,
+          "headers": [
+            "Ticker",
+            "Bias_Mean",
+            "Bias_Slope",
+            "Bias_Accel",
+            "PositionScore",
+            "SlopeScore",
+            "AccelScore",
+            "DialStrength"
+          ]
+        },
+        {
+          "name": "Engine",
+          "usedRange": "A1:AO6",
+          "rows": 6,
+          "columns": 41,
+          "formulaCells": 185,
+          "constantCells": 61,
+          "headers": [
+            "Date",
+            "Spot",
+            "W_CallWall",
+            "W_PutWall",
+            "W_OI",
+            "M_CallWall",
+            "M_PutWall",
+            "M_OI",
+            "SM_CallWall",
+            "SM_PutWall",
+            "SM_OI",
+            "W_DistCall"
+          ]
+        },
+        {
+          "name": "ENGINE_SPY",
+          "usedRange": "A1:B16",
+          "rows": 16,
+          "columns": 2,
+          "formulaCells": 9,
+          "constantCells": 17,
+          "headers": [
+            "Field",
+            "Value"
+          ]
+        },
+        {
+          "name": "ENGINE_SPY_MONTHLY",
+          "usedRange": "A1:B16",
+          "rows": 16,
+          "columns": 2,
+          "formulaCells": 9,
+          "constantCells": 17,
+          "headers": [
+            "Field",
+            "Value"
+          ]
+        },
+        {
+          "name": "ENGINE_SPY_6MONTH",
+          "usedRange": "A1:B16",
+          "rows": 16,
+          "columns": 2,
+          "formulaCells": 9,
+          "constantCells": 17,
+          "headers": [
+            "Field",
+            "Value"
+          ]
+        },
+        {
+          "name": "ENGINE_OPTIMIZED",
+          "usedRange": "A1:AO6",
+          "rows": 6,
+          "columns": 41,
+          "formulaCells": 185,
+          "constantCells": 61,
+          "headers": [
+            "Date",
+            "Spot",
+            "W_CallWall",
+            "W_PutWall",
+            "W_OI",
+            "M_CallWall",
+            "M_PutWall",
+            "M_OI",
+            "SM_CallWall",
+            "SM_PutWall",
+            "SM_OI",
+            "W_DistCall"
+          ]
+        },
+        {
+          "name": "ENGINE_FINAL",
+          "usedRange": "A1:AO2",
+          "rows": 2,
+          "columns": 41,
+          "formulaCells": 31,
+          "constantCells": 51,
+          "headers": [
+            "Date",
+            "Spot",
+            "W_CallWall",
+            "W_PutWall",
+            "W_OI",
+            "M_CallWall",
+            "M_PutWall",
+            "M_OI",
+            "SM_CallWall",
+            "SM_PutWall",
+            "SM_OI",
+            "IV_Day"
+          ]
+        },
+        {
+          "name": "EXPIRATION_MATRIX",
+          "usedRange": "A1:F33",
+          "rows": 33,
+          "columns": 6,
+          "formulaCells": 33,
+          "constantCells": 50,
+          "headers": [
+            "EXPIRATION MATRIX"
+          ]
+        },
+        {
+          "name": "STRUCTURE_LITE",
+          "usedRange": "A1:F46",
+          "rows": 46,
+          "columns": 6,
+          "formulaCells": 19,
+          "constantCells": 50,
+          "headers": [
+            "STRUCTURE-LITE ENGINE",
+            "INSTRUCTIONS"
+          ]
+        },
+        {
+          "name": "SPY_WEEKLY_WALL",
+          "usedRange": "A1:F2",
+          "rows": 2,
+          "columns": 6,
+          "formulaCells": 5,
+          "constantCells": 7,
+          "headers": [
+            "Ticker",
+            "CallWall",
+            "PutWall",
+            "TotalOI",
+            "Strength",
+            "Regime"
+          ]
+        },
+        {
+          "name": "SPY_MONTHLY_WALL",
+          "usedRange": "A1:F2",
+          "rows": 2,
+          "columns": 6,
+          "formulaCells": 5,
+          "constantCells": 7,
+          "headers": [
+            "Ticker",
+            "CallWall",
+            "PutWall",
+            "TotalOI",
+            "Strength",
+            "Regime"
+          ]
+        },
+        {
+          "name": "SPY_6MONTH_WALL",
+          "usedRange": "A1:F2",
+          "rows": 2,
+          "columns": 6,
+          "formulaCells": 5,
+          "constantCells": 7,
+          "headers": [
+            "Ticker",
+            "CallWall",
+            "PutWall",
+            "TotalOI",
+            "Strength",
+            "Regime"
+          ]
+        },
+        {
+          "name": "QQQ_WALL",
+          "usedRange": "A1:F2",
+          "rows": 2,
+          "columns": 6,
+          "formulaCells": 5,
+          "constantCells": 7,
+          "headers": [
+            "Ticker",
+            "CallWall",
+            "PutWall",
+            "TotalOI",
+            "Strength",
+            "Regime"
+          ]
+        },
+        {
+          "name": "IWM_WALL",
+          "usedRange": "A1:F2",
+          "rows": 2,
+          "columns": 6,
+          "formulaCells": 5,
+          "constantCells": 7,
+          "headers": [
+            "Ticker",
+            "CallWall",
+            "PutWall",
+            "TotalOI",
+            "Strength",
+            "Regime"
+          ]
+        },
+        {
+          "name": "DIA_WALL",
+          "usedRange": "A1:F2",
+          "rows": 2,
+          "columns": 6,
+          "formulaCells": 5,
+          "constantCells": 7,
+          "headers": [
+            "Ticker",
+            "CallWall",
+            "PutWall",
+            "TotalOI",
+            "Strength",
+            "Regime"
+          ]
+        },
+        {
+          "name": "INPUT",
+          "usedRange": "A1:P193",
+          "rows": 193,
+          "columns": 16,
+          "formulaCells": 167,
+          "constantCells": 320,
+          "headers": [
+            "Ticker",
+            "Date",
+            "SpotClose",
+            "WeeklyCallWall",
+            "WeeklyPutWall",
+            "MonthlyCallWall",
+            "MonthlyPutWall",
+            "SixMonthCallWall",
+            "SixMonthPutWall",
+            "TotalOI_Weekly",
+            "TotalOI_Monthly",
+            "TotalOI_6Month"
+          ]
+        },
+        {
+          "name": "HISTORIC_DATA",
+          "usedRange": "A1:K7",
+          "rows": 7,
+          "columns": 11,
+          "formulaCells": 7,
+          "constantCells": 27,
+          "headers": [
+            "Date",
+            "VIX",
+            "MOVE",
+            "Fragility",
+            "CMS",
+            "SPY_Weekly",
+            "SPY_Monthly",
+            "SPY_6M",
+            "ActionBias",
+            "\ud83d\udccb DAILY WORKFLOW"
+          ]
+        },
+        {
+          "name": "Raw",
+          "usedRange": "A1:N160",
+          "rows": 160,
+          "columns": 14,
+          "formulaCells": 155,
+          "constantCells": 78,
+          "headers": [
+            "Date",
+            "SpotClose",
+            "WeeklyCallWall",
+            "WeeklyPutWall",
+            "MonthlyCallWall",
+            "MonthlyPutWall",
+            "SixMonthCallWall",
+            "SixMonthPutWall",
+            "TotalOI_Weekly",
+            "TotalOI_Monthly",
+            "TotalOI_6Month"
+          ]
+        },
+        {
+          "name": "INDEX_SPOTS",
+          "usedRange": "A1:H14",
+          "rows": 14,
+          "columns": 8,
+          "formulaCells": 0,
+          "constantCells": 57,
+          "headers": [
+            "Symbol",
+            "Spot",
+            "Timestamp",
+            "Source",
+            "Status",
+            "\ud83d\udcca DATA STATUS"
+          ]
+        },
+        {
+          "name": "CHAIN_RAW_SPY_WEEKLY",
+          "usedRange": "A1:AG610",
+          "rows": 610,
+          "columns": 33,
+          "formulaCells": 208,
+          "constantCells": 60,
+          "headers": [
+            "Expiration",
+            "Strike",
+            "Type",
+            "Last",
+            "Bid",
+            "Ask",
+            "Volume",
+            "OI",
+            "Delta",
+            "Gamma",
+            "Theta",
+            "Vega"
+          ]
+        },
+        {
+          "name": "CHAIN_RAW_SPY_MONTHLY",
+          "usedRange": "A1:AG997",
+          "rows": 997,
+          "columns": 33,
+          "formulaCells": 206,
+          "constantCells": 555,
+          "headers": [
+            "Expiration",
+            "Strike",
+            "Type",
+            "Last",
+            "Bid",
+            "Ask",
+            "Volume",
+            "OI",
+            "Delta",
+            "Gamma",
+            "Theta",
+            "Vega"
+          ]
+        },
+        {
+          "name": "CHAIN_RAW_SPY_6MONTH",
+          "usedRange": "A1:AG709",
+          "rows": 709,
+          "columns": 33,
+          "formulaCells": 206,
+          "constantCells": 555,
+          "headers": [
+            "Expiration",
+            "Strike",
+            "Type",
+            "Last",
+            "Bid",
+            "Ask",
+            "Volume",
+            "OI",
+            "Delta",
+            "Gamma",
+            "Theta",
+            "Vega"
+          ]
+        },
+        {
+          "name": "CHAIN_RAW_QQQ",
+          "usedRange": "A1:AG947",
+          "rows": 947,
+          "columns": 33,
+          "formulaCells": 205,
+          "constantCells": 946,
+          "headers": [
+            "Target Expiration:",
+            "=EXPIRATION_MATRIX!B8"
+          ]
+        },
+        {
+          "name": "CHAIN_RAW_IWM",
+          "usedRange": "A1:AG709",
+          "rows": 709,
+          "columns": 33,
+          "formulaCells": 205,
+          "constantCells": 745,
+          "headers": [
+            "Target Expiration:",
+            "=EXPIRATION_MATRIX!B9"
+          ]
+        },
+        {
+          "name": "CHAIN_RAW_DIA",
+          "usedRange": "A1:AG709",
+          "rows": 709,
+          "columns": 33,
+          "formulaCells": 205,
+          "constantCells": 745,
+          "headers": [
+            "Target Expiration:",
+            "=EXPIRATION_MATRIX!B10"
+          ]
+        },
+        {
+          "name": "CHAIN_RAW",
+          "usedRange": "A1:Z974",
+          "rows": 974,
+          "columns": 26,
+          "formulaCells": 5,
+          "constantCells": 33,
+          "headers": [
+            "Target Expiration:",
+            "2026-06-03 00:00:00"
+          ]
+        },
+        {
+          "name": "WEEKLY_CHAIN_TEMPLATE",
+          "usedRange": "A1:M13",
+          "rows": 13,
+          "columns": 13,
+          "formulaCells": 6,
+          "constantCells": 22,
+          "headers": [
+            "Strike",
+            "Call_Bid",
+            "Call_Ask",
+            "Call_Vol",
+            "Call_OI",
+            "Mid",
+            "Put_Bid",
+            "Put_Ask",
+            "Put_Vol",
+            "Put_OI",
+            "Call Wall Strike"
+          ]
+        },
+        {
+          "name": "MONTHLY_CHAIN_TEMPLATE",
+          "usedRange": "A1:M13",
+          "rows": 13,
+          "columns": 13,
+          "formulaCells": 6,
+          "constantCells": 22,
+          "headers": [
+            "Strike",
+            "Call_Bid",
+            "Call_Ask",
+            "Call_Vol",
+            "Call_OI",
+            "Mid",
+            "Put_Bid",
+            "Put_Ask",
+            "Put_Vol",
+            "Put_OI",
+            "Call Wall Strike"
+          ]
+        },
+        {
+          "name": "SIXMONTH_CHAIN_TEMPLATE",
+          "usedRange": "A1:M13",
+          "rows": 13,
+          "columns": 13,
+          "formulaCells": 6,
+          "constantCells": 22,
+          "headers": [
+            "Strike",
+            "Call_Bid",
+            "Call_Ask",
+            "Call_Vol",
+            "Call_OI",
+            "Mid",
+            "Put_Bid",
+            "Put_Ask",
+            "Put_Vol",
+            "Put_OI",
+            "Call Wall Strike"
+          ]
+        },
+        {
+          "name": "RAW_ENGINE_SPEC",
+          "usedRange": "A1:E121",
+          "rows": 121,
+          "columns": 5,
+          "formulaCells": 0,
+          "constantCells": 286,
+          "headers": [
+            "\u2550\u2550\u2550 RAW OPTIONS CSV SCHEMA \u2550\u2550\u2550"
+          ]
+        },
+        {
+          "name": "RAW_OPTIMIZED",
+          "usedRange": "A1:K6",
+          "rows": 6,
+          "columns": 11,
+          "formulaCells": 55,
+          "constantCells": 11,
+          "headers": [
+            "Date",
+            "Spot",
+            "W_CallWall",
+            "W_PutWall",
+            "W_OI",
+            "M_CallWall",
+            "M_PutWall",
+            "M_OI",
+            "SM_CallWall",
+            "SM_PutWall",
+            "SM_OI"
+          ]
+        },
+        {
+          "name": "DATA_FEED_SETUP",
+          "usedRange": "A1:A20",
+          "rows": 20,
+          "columns": 1,
+          "formulaCells": 0,
+          "constantCells": 15,
+          "headers": [
+            "DATA FEED SETUP GUIDE"
+          ]
+        },
+        {
+          "name": "DATA_IMPORT_SPEC",
+          "usedRange": "A1:J281",
+          "rows": 281,
+          "columns": 10,
+          "formulaCells": 0,
+          "constantCells": 533,
+          "headers": [
+            "\ud83d\udccb DATA IMPORT SPECIFICATION"
+          ]
+        },
+        {
+          "name": "power_etrade_daily csv",
+          "usedRange": "A1:E2",
+          "rows": 2,
+          "columns": 5,
+          "formulaCells": 0,
+          "constantCells": 5,
+          "headers": [
+            "Date",
+            "Spot",
+            "CallWall",
+            "PutWall",
+            "TotalOI"
+          ]
+        }
+      ]
+    },
+    "csv": null,
+    "error": null
+  },
+  {
+    "fullPath": "C:\\StockMarket\\data\\Excel\\stocktemplate.xlsx",
+    "fileName": "stocktemplate.xlsx",
+    "extension": ".xlsx",
+    "sizeBytes": 15577,
+    "lastWriteTime": "2026-05-28T00:09:59.760901",
+    "classification": "openxml",
+    "workbook": {
+      "sheetCount": 4,
+      "hasMacros": false,
+      "sheets": [
+        {
+          "name": "INPUT",
+          "usedRange": "A1:K2",
+          "rows": 2,
+          "columns": 11,
+          "formulaCells": 0,
+          "constantCells": 12,
+          "headers": [
+            "Date",
+            "SpotClose",
+            "WeeklyCallWall",
+            "WeeklyPutWall",
+            "MonthlyCallWall",
+            "MonthlyPutWall",
+            "SixMonthCallWall",
+            "SixMonthPutWall",
+            "TotalOI_Weekly",
+            "TotalOI_Monthly",
+            "TotalOI_6Month"
+          ]
+        },
+        {
+          "name": "Engine",
+          "usedRange": "A1:Z3",
+          "rows": 3,
+          "columns": 26,
+          "formulaCells": 35,
+          "constantCells": 35,
+          "headers": [
+            "Date",
+            "SpotClose",
+            "WeeklyCallWall",
+            "WeeklyPutWall",
+            "MonthlyCallWall",
+            "MonthlyPutWall",
+            "SixMonthCallWall",
+            "SixMonthPutWall",
+            "W_DistCall",
+            "W_DistPut",
+            "W_Bias",
+            "W_Momentum"
+          ]
+        },
+        {
+          "name": "Raw",
+          "usedRange": "A1:A2",
+          "rows": 2,
+          "columns": 1,
+          "formulaCells": 0,
+          "constantCells": 2,
+          "headers": [
+            "Date"
+          ]
+        },
+        {
+          "name": "Dials",
+          "usedRange": "A1:AN24",
+          "rows": 24,
+          "columns": 40,
+          "formulaCells": 123,
+          "constantCells": 42,
+          "headers": [
+            "Date",
+            "W_Bias",
+            "W_Momentum",
+            "W_Acceleration",
+            "W_Bias_Mean",
+            "W_Momentum_Mean",
+            "W_Accel_Mean",
+            "W_Bias_Slope",
+            "W_Bias_Accel",
+            "M_Bias",
+            "M_Momentum",
+            "M_Acceleration"
+          ]
+        }
+      ]
+    },
+    "csv": null,
+    "error": null
+  },
+  {
+    "fullPath": "C:\\StockMarket\\data\\Excel\\stocktemplate_v2_minimal.xlsx",
+    "fileName": "stocktemplate_v2_minimal.xlsx",
+    "extension": ".xlsx",
+    "sizeBytes": 340891,
+    "lastWriteTime": "2026-07-26T20:03:33.709906",
+    "classification": "openxml",
+    "workbook": {
+      "sheetCount": 66,
+      "hasMacros": false,
+      "sheets": [
+        {
+          "name": "EXECUTIVE_SUMMARY",
+          "usedRange": "A1:D58",
+          "rows": 58,
+          "columns": 4,
+          "formulaCells": 0,
+          "constantCells": 120,
+          "headers": [
+            "\ud83d\udcca WORKBOOK EXECUTIVE SUMMARY"
+          ]
+        },
+        {
+          "name": "SWITCHBOARD",
+          "usedRange": "A1:E23",
+          "rows": 23,
+          "columns": 5,
+          "formulaCells": 15,
+          "constantCells": 38,
+          "headers": [
+            "\ud83c\udf9b\ufe0f MASTER SWITCHBOARD \u2014 Morning Cockpit"
+          ]
+        },
+        {
+          "name": "COCKPIT_UI",
+          "usedRange": "A1:AJ512",
+          "rows": 512,
+          "columns": 36,
+          "formulaCells": 106,
+          "constantCells": 368,
+          "headers": [
+            "\ud83d\udcc8 CMS VALUE",
+            "\ud83e\udded REGIME",
+            "\ud83d\udcaa STRENGTH"
+          ]
+        },
+        {
+          "name": "DASHBOARD",
+          "usedRange": "A1:AC194",
+          "rows": 194,
+          "columns": 29,
+          "formulaCells": 281,
+          "constantCells": 387,
+          "headers": [
+            "OPTIONS FLOW FIELD \u2014 MARKET MASTER PANEL"
+          ]
+        },
+        {
+          "name": "PYTHON_SETUP",
+          "usedRange": "A1:F431",
+          "rows": 431,
+          "columns": 6,
+          "formulaCells": 0,
+          "constantCells": 758,
+          "headers": [
+            "\ud83d\udc0d PYTHON \u2192 EXCEL INTEGRATION MAP"
+          ]
+        },
+        {
+          "name": "MASTER_DASHBOARD",
+          "usedRange": "A1:P24",
+          "rows": 24,
+          "columns": 16,
+          "formulaCells": 72,
+          "constantCells": 130,
+          "headers": [
+            "FLOW FIELD DATA",
+            "Ticker",
+            "X_Trend",
+            "Y_CMS",
+            "dX",
+            "dY",
+            "ENERGY LANDSCAPE",
+            "Ticker",
+            "TrendState",
+            "AdjCMS",
+            "Energy"
+          ]
+        },
+        {
+          "name": "COCKPIT",
+          "usedRange": "A1:AJ57",
+          "rows": 57,
+          "columns": 36,
+          "formulaCells": 40,
+          "constantCells": 89,
+          "headers": [
+            "MARKET COCKPIT"
+          ]
+        },
+        {
+          "name": "SECTOR_HEATMAP",
+          "usedRange": "A1:K32",
+          "rows": 32,
+          "columns": 11,
+          "formulaCells": 53,
+          "constantCells": 45,
+          "headers": [
+            "SECTOR ROTATION HEATMAP"
+          ]
+        },
+        {
+          "name": "VIZ_PANEL",
+          "usedRange": "A1:H12",
+          "rows": 12,
+          "columns": 8,
+          "formulaCells": 17,
+          "constantCells": 20,
+          "headers": [
+            "SYSTEM STATUS PANEL"
+          ]
+        },
+        {
+          "name": "CORRELATION_MAP",
+          "usedRange": "A1:H7",
+          "rows": 7,
+          "columns": 8,
+          "formulaCells": 6,
+          "constantCells": 50,
+          "headers": [
+            "Ticker",
+            "SPY",
+            "QQQ",
+            "TLT",
+            "IWM",
+            "GLD",
+            "BTC",
+            "Cluster"
+          ]
+        },
+        {
+          "name": "MACRO_SUMMARY",
+          "usedRange": "A1:F23",
+          "rows": 23,
+          "columns": 6,
+          "formulaCells": 13,
+          "constantCells": 22,
+          "headers": [
+            "Macro Summary Panel"
+          ]
+        },
+        {
+          "name": "MACRO_STRESS",
+          "usedRange": "A1:I35",
+          "rows": 35,
+          "columns": 9,
+          "formulaCells": 32,
+          "constantCells": 50,
+          "headers": [
+            "MACRO STRESS ENGINE \u2014 CONSOLIDATED"
+          ]
+        },
+        {
+          "name": "REGIME_STATE",
+          "usedRange": "A1:G35",
+          "rows": 35,
+          "columns": 7,
+          "formulaCells": 15,
+          "constantCells": 29,
+          "headers": [
+            "REGIME STATE INDICATOR"
+          ]
+        },
+        {
+          "name": "REGIME_TIMELINE",
+          "usedRange": "A1:I6",
+          "rows": 6,
+          "columns": 9,
+          "formulaCells": 45,
+          "constantCells": 9,
+          "headers": [
+            "Date",
+            "Regime",
+            "TrendDial",
+            "RiskDial",
+            "Energy",
+            "Chaos",
+            "MetaField",
+            "ProjUp",
+            "ProjDown"
+          ]
+        },
+        {
+          "name": "REGIME_TRANSITIONS",
+          "usedRange": "A1:S100",
+          "rows": 100,
+          "columns": 19,
+          "formulaCells": 21,
+          "constantCells": 54,
+          "headers": [
+            "Date",
+            "SPY",
+            "QQQ",
+            "TLT",
+            "IWM",
+            "GLD",
+            "BTC",
+            "SPY_Code",
+            "QQQ_Code",
+            "TLT_Code",
+            "IWM_Code",
+            "GLD_Code"
+          ]
+        },
+        {
+          "name": "VOL_DASH",
+          "usedRange": "A1:R27",
+          "rows": 27,
+          "columns": 18,
+          "formulaCells": 133,
+          "constantCells": 37,
+          "headers": [
+            "\ud83d\udd25 VOLATILITY PRESSURE DASHBOARD"
+          ]
+        },
+        {
+          "name": "VOL_SIGNALS",
+          "usedRange": "A1:U25",
+          "rows": 25,
+          "columns": 21,
+          "formulaCells": 384,
+          "constantCells": 49,
+          "headers": [
+            "Date",
+            "MOVE",
+            "MOVE_StDev_10d",
+            "MOVE_Instability_Signal",
+            "VIX",
+            "SPX_Return",
+            "VIX_Response_Signal",
+            "SKEW",
+            "Skew_Signal",
+            "VVIX",
+            "VVIX_Divergence_Signal",
+            "Gamma_Proxy"
+          ]
+        },
+        {
+          "name": "VOL_INPUTS",
+          "usedRange": "A1:M25",
+          "rows": 25,
+          "columns": 13,
+          "formulaCells": 77,
+          "constantCells": 20,
+          "headers": [
+            "Date",
+            "MOVE",
+            "VIX",
+            "VVIX",
+            "SKEW",
+            "SPX_Close",
+            "SPX_Return",
+            "10Y_Yield",
+            "TLT_Close",
+            "Correlation_SPX_10Y",
+            "\ud83d\udd34 LIVE FROM COCKPIT"
+          ]
+        },
+        {
+          "name": "VOLATILITY",
+          "usedRange": "A1:M2",
+          "rows": 2,
+          "columns": 13,
+          "formulaCells": 10,
+          "constantCells": 16,
+          "headers": [
+            "Date",
+            "VIX",
+            "VIX_Vel",
+            "VIX_Accel",
+            "MOVE",
+            "MOVE_Vel",
+            "MOVE_Accel",
+            "Fragility",
+            "VIX_Score",
+            "MOVE_Score",
+            "Vel_Score",
+            "Fragility_Score"
+          ]
+        },
+        {
+          "name": "ALERT_LOG",
+          "usedRange": "A1:J41",
+          "rows": 41,
+          "columns": 10,
+          "formulaCells": 32,
+          "constantCells": 51,
+          "headers": [
+            "AUTO-TIMESTAMP ALERT LOG"
+          ]
+        },
+        {
+          "name": "OPERATOR_NOTES",
+          "usedRange": "A1:F36",
+          "rows": 36,
+          "columns": 6,
+          "formulaCells": 10,
+          "constantCells": 29,
+          "headers": [
+            "OPERATOR NOTES \u2014 DAILY LOG"
+          ]
+        },
+        {
+          "name": "QUICK_REFERENCE",
+          "usedRange": "A1:H39",
+          "rows": 39,
+          "columns": 8,
+          "formulaCells": 0,
+          "constantCells": 158,
+          "headers": [
+            "QUICK REFERENCE CARD \u2014 OPERATOR CHEAT SHEET"
+          ]
+        },
+        {
+          "name": "FORMATTING_GUIDE",
+          "usedRange": "A1:H48",
+          "rows": 48,
+          "columns": 8,
+          "formulaCells": 10,
+          "constantCells": 158,
+          "headers": [
+            "EXCEL FORMATTING INSTRUCTIONS \u2014 COCKPIT THEME"
+          ]
+        },
+        {
+          "name": "TIMELINES",
+          "usedRange": "A1:I23",
+          "rows": 23,
+          "columns": 9,
+          "formulaCells": 140,
+          "constantCells": 16,
+          "headers": [
+            "TIME SERIES VISUALIZATION CENTER"
+          ]
+        },
+        {
+          "name": "RETURNS",
+          "usedRange": "A1:C2",
+          "rows": 2,
+          "columns": 3,
+          "formulaCells": 3,
+          "constantCells": 3,
+          "headers": [
+            "Ticker",
+            "Date",
+            "Return"
+          ]
+        },
+        {
+          "name": "PORTFOLIO",
+          "usedRange": "A1:M8",
+          "rows": 8,
+          "columns": 13,
+          "formulaCells": 61,
+          "constantCells": 19,
+          "headers": [
+            "Ticker",
+            "RiskBucket",
+            "AdjustedCMS",
+            "ActivePosition",
+            "RawWeight",
+            "NormalizedWeight",
+            "FinalWeight",
+            "Notes",
+            "WeightBar",
+            "MaxExposure",
+            "PORTFOLIO SUMMARY"
+          ]
+        },
+        {
+          "name": "PIVOTS",
+          "usedRange": "A1:E10",
+          "rows": 10,
+          "columns": 5,
+          "formulaCells": 6,
+          "constantCells": 15,
+          "headers": [
+            "PIVOT ANALYSIS CENTER",
+            "QUICK SUMMARY"
+          ]
+        },
+        {
+          "name": "SIGNALS",
+          "usedRange": "A1:N3",
+          "rows": 3,
+          "columns": 14,
+          "formulaCells": 26,
+          "constantCells": 16,
+          "headers": [
+            "Ticker",
+            "Date",
+            "TrendState",
+            "CMS",
+            "AdjustedCMS",
+            "PositionSize",
+            "ActivePosition",
+            "SmoothedPosition",
+            "RegimeLabel",
+            "FlipSignal",
+            "EntrySignal",
+            "ExitSignal"
+          ]
+        },
+        {
+          "name": "MATRIX",
+          "usedRange": "A1:K8",
+          "rows": 8,
+          "columns": 11,
+          "formulaCells": 0,
+          "constantCells": 68,
+          "headers": [
+            "Ticker",
+            "TrendState",
+            "CMS",
+            "AdjustedCMS",
+            "RiskBucket",
+            "RegimeLabel",
+            "FlipSignal",
+            "ActivePosition",
+            "TrendSparkline",
+            "CMSSparkline",
+            "ActiveSparkline"
+          ]
+        },
+        {
+          "name": "Dials",
+          "usedRange": "A1:C59",
+          "rows": 59,
+          "columns": 3,
+          "formulaCells": 40,
+          "constantCells": 80,
+          "headers": [
+            "DIALS - Current State",
+            "<openpyxl.worksheet.formula.ArrayFormula object at 0x0000013A0832F0B0>"
+          ]
+        },
+        {
+          "name": "DIALS_WEEKLY",
+          "usedRange": "A1:H3",
+          "rows": 3,
+          "columns": 8,
+          "formulaCells": 9,
+          "constantCells": 9,
+          "headers": [
+            "Ticker",
+            "Bias_Mean",
+            "Bias_Slope",
+            "Bias_Accel",
+            "PositionScore",
+            "SlopeScore",
+            "AccelScore",
+            "DialStrength"
+          ]
+        },
+        {
+          "name": "DIALS_MONTHLY",
+          "usedRange": "A1:H3",
+          "rows": 3,
+          "columns": 8,
+          "formulaCells": 9,
+          "constantCells": 9,
+          "headers": [
+            "Ticker",
+            "Bias_Mean",
+            "Bias_Slope",
+            "Bias_Accel",
+            "PositionScore",
+            "SlopeScore",
+            "AccelScore",
+            "DialStrength"
+          ]
+        },
+        {
+          "name": "DIALS_6MO",
+          "usedRange": "A1:H3",
+          "rows": 3,
+          "columns": 8,
+          "formulaCells": 9,
+          "constantCells": 9,
+          "headers": [
+            "Ticker",
+            "Bias_Mean",
+            "Bias_Slope",
+            "Bias_Accel",
+            "PositionScore",
+            "SlopeScore",
+            "AccelScore",
+            "DialStrength"
+          ]
+        },
+        {
+          "name": "Engine",
+          "usedRange": "A1:AO6",
+          "rows": 6,
+          "columns": 41,
+          "formulaCells": 185,
+          "constantCells": 61,
+          "headers": [
+            "Date",
+            "Spot",
+            "W_CallWall",
+            "W_PutWall",
+            "W_OI",
+            "M_CallWall",
+            "M_PutWall",
+            "M_OI",
+            "SM_CallWall",
+            "SM_PutWall",
+            "SM_OI",
+            "W_DistCall"
+          ]
+        },
+        {
+          "name": "ENGINE_SPY",
+          "usedRange": "A1:B16",
+          "rows": 16,
+          "columns": 2,
+          "formulaCells": 9,
+          "constantCells": 17,
+          "headers": [
+            "Field",
+            "Value"
+          ]
+        },
+        {
+          "name": "ENGINE_SPY_MONTHLY",
+          "usedRange": "A1:B16",
+          "rows": 16,
+          "columns": 2,
+          "formulaCells": 9,
+          "constantCells": 17,
+          "headers": [
+            "Field",
+            "Value"
+          ]
+        },
+        {
+          "name": "ENGINE_SPY_6MONTH",
+          "usedRange": "A1:B16",
+          "rows": 16,
+          "columns": 2,
+          "formulaCells": 9,
+          "constantCells": 17,
+          "headers": [
+            "Field",
+            "Value"
+          ]
+        },
+        {
+          "name": "ENGINE_OPTIMIZED",
+          "usedRange": "A1:AO6",
+          "rows": 6,
+          "columns": 41,
+          "formulaCells": 185,
+          "constantCells": 61,
+          "headers": [
+            "Date",
+            "Spot",
+            "W_CallWall",
+            "W_PutWall",
+            "W_OI",
+            "M_CallWall",
+            "M_PutWall",
+            "M_OI",
+            "SM_CallWall",
+            "SM_PutWall",
+            "SM_OI",
+            "W_DistCall"
+          ]
+        },
+        {
+          "name": "ENGINE_FINAL",
+          "usedRange": "A1:AO2",
+          "rows": 2,
+          "columns": 41,
+          "formulaCells": 31,
+          "constantCells": 51,
+          "headers": [
+            "Date",
+            "Spot",
+            "W_CallWall",
+            "W_PutWall",
+            "W_OI",
+            "M_CallWall",
+            "M_PutWall",
+            "M_OI",
+            "SM_CallWall",
+            "SM_PutWall",
+            "SM_OI",
+            "IV_Day"
+          ]
+        },
+        {
+          "name": "EXPIRATION_MATRIX",
+          "usedRange": "A1:F33",
+          "rows": 33,
+          "columns": 6,
+          "formulaCells": 33,
+          "constantCells": 50,
+          "headers": [
+            "EXPIRATION MATRIX"
+          ]
+        },
+        {
+          "name": "STRUCTURE_LITE",
+          "usedRange": "A1:F46",
+          "rows": 46,
+          "columns": 6,
+          "formulaCells": 19,
+          "constantCells": 50,
+          "headers": [
+            "STRUCTURE-LITE ENGINE",
+            "INSTRUCTIONS"
+          ]
+        },
+        {
+          "name": "SPY_WEEKLY_WALL",
+          "usedRange": "A1:F2",
+          "rows": 2,
+          "columns": 6,
+          "formulaCells": 5,
+          "constantCells": 7,
+          "headers": [
+            "Ticker",
+            "CallWall",
+            "PutWall",
+            "TotalOI",
+            "Strength",
+            "Regime"
+          ]
+        },
+        {
+          "name": "SPY_MONTHLY_WALL",
+          "usedRange": "A1:F2",
+          "rows": 2,
+          "columns": 6,
+          "formulaCells": 5,
+          "constantCells": 7,
+          "headers": [
+            "Ticker",
+            "CallWall",
+            "PutWall",
+            "TotalOI",
+            "Strength",
+            "Regime"
+          ]
+        },
+        {
+          "name": "SPY_6MONTH_WALL",
+          "usedRange": "A1:F2",
+          "rows": 2,
+          "columns": 6,
+          "formulaCells": 5,
+          "constantCells": 7,
+          "headers": [
+            "Ticker",
+            "CallWall",
+            "PutWall",
+            "TotalOI",
+            "Strength",
+            "Regime"
+          ]
+        },
+        {
+          "name": "QQQ_WALL",
+          "usedRange": "A1:F2",
+          "rows": 2,
+          "columns": 6,
+          "formulaCells": 5,
+          "constantCells": 7,
+          "headers": [
+            "Ticker",
+            "CallWall",
+            "PutWall",
+            "TotalOI",
+            "Strength",
+            "Regime"
+          ]
+        },
+        {
+          "name": "IWM_WALL",
+          "usedRange": "A1:F2",
+          "rows": 2,
+          "columns": 6,
+          "formulaCells": 5,
+          "constantCells": 7,
+          "headers": [
+            "Ticker",
+            "CallWall",
+            "PutWall",
+            "TotalOI",
+            "Strength",
+            "Regime"
+          ]
+        },
+        {
+          "name": "DIA_WALL",
+          "usedRange": "A1:F2",
+          "rows": 2,
+          "columns": 6,
+          "formulaCells": 5,
+          "constantCells": 7,
+          "headers": [
+            "Ticker",
+            "CallWall",
+            "PutWall",
+            "TotalOI",
+            "Strength",
+            "Regime"
+          ]
+        },
+        {
+          "name": "INPUT",
+          "usedRange": "A1:P193",
+          "rows": 193,
+          "columns": 16,
+          "formulaCells": 167,
+          "constantCells": 320,
+          "headers": [
+            "Ticker",
+            "Date",
+            "SpotClose",
+            "WeeklyCallWall",
+            "WeeklyPutWall",
+            "MonthlyCallWall",
+            "MonthlyPutWall",
+            "SixMonthCallWall",
+            "SixMonthPutWall",
+            "TotalOI_Weekly",
+            "TotalOI_Monthly",
+            "TotalOI_6Month"
+          ]
+        },
+        {
+          "name": "HISTORIC_DATA",
+          "usedRange": "A1:O7",
+          "rows": 7,
+          "columns": 15,
+          "formulaCells": 7,
+          "constantCells": 27,
+          "headers": [
+            "Date",
+            "VIX",
+            "MOVE",
+            "Fragility",
+            "CMS",
+            "SPY_Weekly",
+            "SPY_Monthly",
+            "SPY_6M",
+            "ActionBias",
+            "\ud83d\udccb DAILY WORKFLOW"
+          ]
+        },
+        {
+          "name": "Raw",
+          "usedRange": "A1:N160",
+          "rows": 160,
+          "columns": 14,
+          "formulaCells": 155,
+          "constantCells": 78,
+          "headers": [
+            "Date",
+            "SpotClose",
+            "WeeklyCallWall",
+            "WeeklyPutWall",
+            "MonthlyCallWall",
+            "MonthlyPutWall",
+            "SixMonthCallWall",
+            "SixMonthPutWall",
+            "TotalOI_Weekly",
+            "TotalOI_Monthly",
+            "TotalOI_6Month"
+          ]
+        },
+        {
+          "name": "INDEX_SPOTS",
+          "usedRange": "A1:H14",
+          "rows": 14,
+          "columns": 8,
+          "formulaCells": 0,
+          "constantCells": 57,
+          "headers": [
+            "Symbol",
+            "Spot",
+            "Timestamp",
+            "Source",
+            "Status",
+            "\ud83d\udcca DATA STATUS"
+          ]
+        },
+        {
+          "name": "CHAIN_RAW_SPY_WEEKLY",
+          "usedRange": "A1:AG610",
+          "rows": 610,
+          "columns": 33,
+          "formulaCells": 208,
+          "constantCells": 60,
+          "headers": [
+            "Expiration",
+            "Strike",
+            "Type",
+            "Last",
+            "Bid",
+            "Ask",
+            "Volume",
+            "OI",
+            "Delta",
+            "Gamma",
+            "Theta",
+            "Vega"
+          ]
+        },
+        {
+          "name": "CHAIN_RAW_SPY_MONTHLY",
+          "usedRange": "A1:AG997",
+          "rows": 997,
+          "columns": 33,
+          "formulaCells": 206,
+          "constantCells": 555,
+          "headers": [
+            "Expiration",
+            "Strike",
+            "Type",
+            "Last",
+            "Bid",
+            "Ask",
+            "Volume",
+            "OI",
+            "Delta",
+            "Gamma",
+            "Theta",
+            "Vega"
+          ]
+        },
+        {
+          "name": "CHAIN_RAW_SPY_6MONTH",
+          "usedRange": "A1:AG709",
+          "rows": 709,
+          "columns": 33,
+          "formulaCells": 206,
+          "constantCells": 555,
+          "headers": [
+            "Expiration",
+            "Strike",
+            "Type",
+            "Last",
+            "Bid",
+            "Ask",
+            "Volume",
+            "OI",
+            "Delta",
+            "Gamma",
+            "Theta",
+            "Vega"
+          ]
+        },
+        {
+          "name": "CHAIN_RAW_QQQ",
+          "usedRange": "A1:AG947",
+          "rows": 947,
+          "columns": 33,
+          "formulaCells": 205,
+          "constantCells": 946,
+          "headers": [
+            "Target Expiration:",
+            "=EXPIRATION_MATRIX!B8"
+          ]
+        },
+        {
+          "name": "CHAIN_RAW_IWM",
+          "usedRange": "A1:AG709",
+          "rows": 709,
+          "columns": 33,
+          "formulaCells": 205,
+          "constantCells": 745,
+          "headers": [
+            "Target Expiration:",
+            "=EXPIRATION_MATRIX!B9"
+          ]
+        },
+        {
+          "name": "CHAIN_RAW_DIA",
+          "usedRange": "A1:AG709",
+          "rows": 709,
+          "columns": 33,
+          "formulaCells": 205,
+          "constantCells": 745,
+          "headers": [
+            "Target Expiration:",
+            "=EXPIRATION_MATRIX!B10"
+          ]
+        },
+        {
+          "name": "CHAIN_RAW",
+          "usedRange": "A1:Z974",
+          "rows": 974,
+          "columns": 26,
+          "formulaCells": 5,
+          "constantCells": 33,
+          "headers": [
+            "Target Expiration:",
+            "2026-06-03 00:00:00"
+          ]
+        },
+        {
+          "name": "WEEKLY_CHAIN_TEMPLATE",
+          "usedRange": "A1:M13",
+          "rows": 13,
+          "columns": 13,
+          "formulaCells": 6,
+          "constantCells": 22,
+          "headers": [
+            "Strike",
+            "Call_Bid",
+            "Call_Ask",
+            "Call_Vol",
+            "Call_OI",
+            "Mid",
+            "Put_Bid",
+            "Put_Ask",
+            "Put_Vol",
+            "Put_OI",
+            "Call Wall Strike"
+          ]
+        },
+        {
+          "name": "MONTHLY_CHAIN_TEMPLATE",
+          "usedRange": "A1:M13",
+          "rows": 13,
+          "columns": 13,
+          "formulaCells": 6,
+          "constantCells": 22,
+          "headers": [
+            "Strike",
+            "Call_Bid",
+            "Call_Ask",
+            "Call_Vol",
+            "Call_OI",
+            "Mid",
+            "Put_Bid",
+            "Put_Ask",
+            "Put_Vol",
+            "Put_OI",
+            "Call Wall Strike"
+          ]
+        },
+        {
+          "name": "SIXMONTH_CHAIN_TEMPLATE",
+          "usedRange": "A1:M13",
+          "rows": 13,
+          "columns": 13,
+          "formulaCells": 6,
+          "constantCells": 22,
+          "headers": [
+            "Strike",
+            "Call_Bid",
+            "Call_Ask",
+            "Call_Vol",
+            "Call_OI",
+            "Mid",
+            "Put_Bid",
+            "Put_Ask",
+            "Put_Vol",
+            "Put_OI",
+            "Call Wall Strike"
+          ]
+        },
+        {
+          "name": "RAW_ENGINE_SPEC",
+          "usedRange": "A1:E121",
+          "rows": 121,
+          "columns": 5,
+          "formulaCells": 0,
+          "constantCells": 286,
+          "headers": [
+            "\u2550\u2550\u2550 RAW OPTIONS CSV SCHEMA \u2550\u2550\u2550"
+          ]
+        },
+        {
+          "name": "RAW_OPTIMIZED",
+          "usedRange": "A1:K6",
+          "rows": 6,
+          "columns": 11,
+          "formulaCells": 55,
+          "constantCells": 11,
+          "headers": [
+            "Date",
+            "Spot",
+            "W_CallWall",
+            "W_PutWall",
+            "W_OI",
+            "M_CallWall",
+            "M_PutWall",
+            "M_OI",
+            "SM_CallWall",
+            "SM_PutWall",
+            "SM_OI"
+          ]
+        },
+        {
+          "name": "DATA_FEED_SETUP",
+          "usedRange": "A1:A20",
+          "rows": 20,
+          "columns": 1,
+          "formulaCells": 0,
+          "constantCells": 15,
+          "headers": [
+            "DATA FEED SETUP GUIDE"
+          ]
+        },
+        {
+          "name": "DATA_IMPORT_SPEC",
+          "usedRange": "A1:J281",
+          "rows": 281,
+          "columns": 10,
+          "formulaCells": 0,
+          "constantCells": 533,
+          "headers": [
+            "\ud83d\udccb DATA IMPORT SPECIFICATION"
+          ]
+        },
+        {
+          "name": "power_etrade_daily csv",
+          "usedRange": "A1:E2",
+          "rows": 2,
+          "columns": 5,
+          "formulaCells": 0,
+          "constantCells": 5,
+          "headers": [
+            "Date",
+            "Spot",
+            "CallWall",
+            "PutWall",
+            "TotalOI"
+          ]
+        }
+      ]
+    },
+    "csv": null,
+    "error": null
+  },
+  {
+    "fullPath": "C:\\StockMarket\\data\\Excel\\Threshold Development Roadmap.xlsx",
+    "fileName": "Threshold Development Roadmap.xlsx",
+    "extension": ".xlsx",
+    "sizeBytes": 16943,
+    "lastWriteTime": "2026-07-10T14:01:12",
+    "classification": "openxml",
+    "workbook": {
+      "sheetCount": 1,
+      "hasMacros": false,
+      "sheets": [
+        {
+          "name": "Roadmap",
+          "usedRange": "A1:M31",
+          "rows": 31,
+          "columns": 13,
+          "formulaCells": 30,
+          "constantCells": 109,
+          "headers": [
+            "THRESHOLD \u2014 Development Roadmap"
+          ]
+        }
+      ]
+    },
+    "csv": null,
+    "error": null
+  }
+]

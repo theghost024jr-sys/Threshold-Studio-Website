@@ -1,0 +1,68 @@
+{
+  "chambers": {
+    "threshold": {
+      "id": "threshold",
+      "name": "Threshold Chamber",
+      "description": "The root chamber holds all branches in potential.",
+      "season": "fog",
+      "glyphs": [
+        "threshold",
+        "anchor",
+        "resonance"
+      ],
+      "legacy": "keeper"
+    },
+    "fog": {
+      "id": "fog",
+      "name": "Fog Chamber",
+      "description": "Mist softens edges and reveals subtle movement.",
+      "season": "fog",
+      "glyphs": [
+        "mist",
+        "door",
+        "drift"
+      ],
+      "legacy": "whisperer"
+    },
+    "shimmer": {
+      "id": "shimmer",
+      "name": "Shimmer Chamber",
+      "description": "Signal widens and resonance brightens the path.",
+      "season": "shimmer",
+      "glyphs": [
+        "mobius",
+        "light",
+        "expansion"
+      ],
+      "legacy": "lumen"
+    },
+    "storm": {
+      "id": "storm",
+      "name": "Storm Chamber",
+      "description": "Pressure concentrates until form is rewritten.",
+      "season": "storm",
+      "glyphs": [
+        "fracture",
+        "lantern",
+        "collapse"
+      ],
+      "legacy": "architect"
+    },
+    "soil": {
+      "id": "soil",
+      "name": "Soil Chamber",
+      "description": "Memory composts into structure and return.",
+      "season": "soil",
+      "glyphs": [
+        "root",
+        "anchor",
+        "crown"
+      ],
+      "legacy": "archivist"
+    }
+  },
+  "meta": {
+    "generatedAt": "2026-07-31T00:00:00Z",
+    "source": "runtime baseline"
+  }
+}
