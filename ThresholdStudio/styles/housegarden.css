@@ -1,0 +1,692 @@
+﻿:root {
+      --soil-depth: 0;
+      --cosmos-rise: 1;
+      --growth-energy: 0;
+      --growth-soil-opacity: 0.26;
+      --growth-stem-opacity: 0;
+      --growth-canopy-opacity: 0;
+      --growth-breath-speed: 14s;
+      --growth-stem-speed: 18s;
+      --growth-leaf-opacity-max: 0.1;
+      --growth-soil-tint: rgba(107, 125, 74, 0.2);
+    }
+
+    html,
+    body {
+      background: transparent;
+    }
+
+    .housegarden-page {
+      background: transparent;
+      color: var(--vault-chamber-body, #f7f1e8);
+      font-family: 'Manrope', sans-serif;
+    }
+
+    .housegarden-page h1,
+    .housegarden-page h2,
+    .housegarden-page h3 {
+      font-family: 'Cormorant Garamond', serif;
+      color: var(--vault-chamber-structural, #f7ecdc);
+      letter-spacing: 0.01em;
+    }
+
+    .housegarden-page nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.7rem;
+      padding: 0.9rem 1.2rem;
+      border-bottom: 1px solid rgba(255, 223, 189, 0.28);
+      background: rgba(12, 10, 9, 0.3);
+      backdrop-filter: blur(6px);
+      position: sticky;
+      top: 0;
+      z-index: 24;
+    }
+
+    .housegarden-page nav a {
+      color: var(--vault-chamber-structural, #faedde);
+      text-decoration: none;
+      border: 1px solid rgba(255, 223, 189, 0.32);
+      background: rgba(18, 14, 16, 0.28);
+      border-radius: 4px;
+      padding: 0.46rem 0.8rem;
+      font-size: 0.86rem;
+      transition: background 220ms ease, color 220ms ease;
+    }
+
+    .housegarden-page nav a:hover {
+      background: rgba(8, 8, 12, 0.85);
+      color: var(--vault-chamber-body, #fff3e4);
+    }
+
+    .housegarden-underlay {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      overflow: hidden;
+      z-index: 0;
+    }
+
+    .vine-canvas-layer {
+      position: absolute;
+      inset: 0;
+      pointer-events: auto;
+      z-index: 2;
+      opacity: 0.16;
+      mix-blend-mode: normal;
+    }
+
+    #gardenCanvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      display: block;
+      pointer-events: auto;
+      z-index: -1;
+      opacity: 0.98;
+    }
+
+    .layer {
+      position: absolute;
+      left: 0;
+      right: 0;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .universe-layer {
+      top: 0;
+      height: 34%;
+      background: linear-gradient(180deg, rgba(6, 8, 20, 0.9) 0%, rgba(12, 15, 33, 0.76) 52%, rgba(19, 27, 49, 0.3) 100%);
+    }
+
+    .star {
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: rgba(255, 235, 213, 0.82);
+      opacity: calc(0.24 + (var(--cosmos-rise) * 0.48));
+      box-shadow: 0 0 9px rgba(255, 235, 213, 0.24);
+      pointer-events: auto;
+      transition: transform 260ms ease, opacity 260ms ease, box-shadow 260ms ease;
+    }
+
+    .star.is-near {
+      opacity: 1;
+      transform: scale(1.75);
+      box-shadow: 0 0 16px rgba(255, 224, 186, 0.62);
+    }
+
+    .star.st1 { top: 12%; left: 13%; }
+    .star.st2 { top: 21%; left: 39%; }
+    .star.st3 { top: 7%; right: 23%; }
+    .star.st4 { top: 24%; right: 10%; }
+
+    .cosmic-arc {
+      position: absolute;
+      width: 220px;
+      height: 94px;
+      border-top: 1px solid rgba(255, 220, 184, 0.18);
+      border-radius: 999px;
+      opacity: 0.45;
+    }
+
+    .cosmic-arc.c1 { top: 14%; left: 17%; transform: rotate(9deg); }
+    .cosmic-arc.c2 { top: 22%; right: 12%; transform: rotate(-10deg); }
+
+    .drift-glyph {
+      position: absolute;
+      color: rgba(255, 228, 197, 0.42);
+      font-size: 0.95rem;
+      animation: driftGlyph 10s ease-in-out infinite;
+    }
+
+    .drift-glyph.g1 { right: 33%; top: 13%; animation-delay: 2s; }
+    .drift-glyph.g2 { right: 20%; top: 24%; animation-delay: 5s; }
+
+    .hidden-hub {
+      position: absolute;
+      top: 18%;
+      right: 7%;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      border: 1px solid rgba(255, 224, 189, 0.28);
+      background: radial-gradient(circle at 36% 35%, rgba(255, 239, 214, 0.66), rgba(160, 126, 106, 0.22) 62%, rgba(22, 16, 18, 0.82) 100%);
+      color: rgba(255, 241, 222, 0.8);
+      text-decoration: none;
+      display: grid;
+      place-items: center;
+      opacity: 0.08;
+      box-shadow: 0 0 0 rgba(255, 221, 184, 0);
+      --hub-drift: 0px;
+      --hub-scale: 1;
+      transform: translateY(var(--hub-drift)) scale(var(--hub-scale));
+      transition: opacity 320ms ease, transform 320ms ease, box-shadow 320ms ease;
+      animation: hubPulse 16s ease-in-out infinite;
+      pointer-events: auto;
+      z-index: 2;
+    }
+
+    .hidden-hub.is-near,
+    .hidden-hub:hover,
+    .hidden-hub:focus-visible {
+      opacity: 0.88;
+      --hub-scale: 1.08;
+      box-shadow: 0 0 15px rgba(255, 228, 194, 0.6);
+      outline: none;
+    }
+
+    .dusk-layer {
+      top: 34%;
+      height: 30%;
+      background: linear-gradient(180deg, rgba(95, 88, 143, 0.16) 0%, rgba(103, 118, 166, 0.25) 44%, rgba(124, 145, 188, 0.18) 72%, rgba(87, 82, 121, 0.18) 100%);
+      filter: blur(7px);
+      opacity: 0.62;
+    }
+
+    .vine-layer {
+      top: 24%;
+      height: 36%;
+      background: linear-gradient(180deg, rgba(117, 122, 164, 0.09) 0%, rgba(91, 108, 150, 0.12) 55%, rgba(71, 91, 125, 0) 100%);
+    }
+
+    .vine-line {
+      position: absolute;
+      width: 2px;
+      border-radius: 999px;
+      background: linear-gradient(180deg, rgba(255, 236, 213, 0.1), rgba(255, 228, 196, 0.35), rgba(255, 220, 187, 0.08));
+      pointer-events: auto;
+      transition: transform 240ms ease, filter 240ms ease;
+      animation: vineDrift 15s ease-in-out infinite;
+    }
+
+    .vine-line.v1 { left: 16%; top: 9%; height: 220px; --rot: -11deg; transform: rotate(var(--rot)); }
+    .vine-line.v2 { left: 40%; top: 2%; height: 252px; --rot: 6deg; transform: rotate(var(--rot)); animation-delay: 2.5s; }
+    .vine-line.v3 { right: 31%; top: 7%; height: 218px; --rot: -6deg; transform: rotate(var(--rot)); animation-delay: 5s; }
+    .vine-line.v4 { right: 13%; top: 4%; height: 236px; --rot: 12deg; transform: rotate(var(--rot)); animation-delay: 1s; }
+
+    .vine-line.sway,
+    .vine-line:hover {
+      transform: translateY(-2px) scaleY(1.02) rotate(var(--rot));
+      filter: drop-shadow(0 0 8px rgba(255, 226, 192, 0.32));
+    }
+
+    .seed-layer {
+      top: 42%;
+      height: 28%;
+    }
+
+    .seed-glyph {
+      position: absolute;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      border: 1px solid rgba(255, 231, 202, 0.34);
+      color: rgba(255, 228, 197, 0.74);
+      background: rgba(255, 232, 196, 0.06);
+      box-shadow: 0 0 0 rgba(255, 227, 193, 0);
+      transition: transform 240ms ease, box-shadow 240ms ease;
+      pointer-events: auto;
+    }
+
+    .seed-glyph:hover,
+    .seed-glyph.pulse {
+      transform: scale(1.14);
+      box-shadow: 0 0 14px rgba(250, 223, 186, 0.35);
+    }
+
+    .seed-glyph.s1 { left: 20%; top: 26%; }
+    .seed-glyph.s2 { left: 42%; top: 48%; }
+    .seed-glyph.s3 { right: 21%; top: 34%; }
+
+    .soil-layer {
+      top: 64%;
+      bottom: 0;
+      background:
+        linear-gradient(180deg, rgba(186, 140, 91, 0.13) 0%, rgba(146, 102, 67, 0.52) 44%, rgba(58, 39, 27, 0.98) 100%),
+        radial-gradient(circle at 24% 78%, rgba(227, 184, 140, 0.18), rgba(227, 184, 140, 0) 46%),
+        radial-gradient(circle at 82% 74%, rgba(204, 159, 111, 0.15), rgba(204, 159, 111, 0) 47%);
+      filter: brightness(calc(1 - (var(--soil-depth) * 0.16)));
+      transform-origin: 50% 100%;
+    }
+
+    .soil-layer::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(180deg, rgba(85, 107, 47, 0) 0%, var(--growth-soil-tint) 60%, rgba(85, 107, 47, 0.34) 100%),
+        radial-gradient(circle at 20% 100%, rgba(107, 125, 74, 0.2), transparent 42%),
+        radial-gradient(circle at 78% 100%, rgba(85, 107, 47, 0.16), transparent 48%);
+      opacity: calc(var(--growth-soil-opacity) + (var(--growth-energy) * 0.34));
+      transform: translateY(calc(26% - (var(--growth-energy) * 22%)));
+      transition: transform 900ms ease, opacity 900ms ease;
+      pointer-events: none;
+    }
+
+    .garden-growth-layer {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 100%;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .stem-field,
+    .canopy-field {
+      position: absolute;
+      inset: 0;
+    }
+
+    .stem-line {
+      position: absolute;
+      bottom: -3%;
+      width: 2px;
+      height: 44%;
+      border-radius: 999px;
+      background: linear-gradient(180deg, rgba(85, 107, 47, 0), rgba(107, 125, 74, 0.56), rgba(107, 125, 74, 0));
+      opacity: calc(var(--growth-stem-opacity) * 0.7);
+      transform-origin: 50% 100%;
+      animation: stemDrift var(--growth-stem-speed) ease-in-out infinite;
+    }
+
+    .stem-line.s1 { left: 14%; height: 42%; animation-delay: 0s; }
+    .stem-line.s2 { left: 28%; height: 47%; animation-delay: 2.2s; width: 3px; }
+    .stem-line.s3 { left: 46%; height: 50%; animation-delay: 1.3s; }
+    .stem-line.s4 { left: 62%; height: 45%; animation-delay: 3.4s; width: 3px; }
+    .stem-line.s5 { left: 77%; height: 52%; animation-delay: 0.9s; }
+
+    .canopy-leaf {
+      position: absolute;
+      width: 38px;
+      height: 20px;
+      border-radius: 100% 0 100% 0;
+      border: 1px solid rgba(125, 147, 88, 0.38);
+      background: linear-gradient(130deg, rgba(123, 146, 86, 0.16), rgba(95, 116, 63, 0.08));
+      opacity: calc(var(--growth-canopy-opacity) * var(--growth-leaf-opacity-max));
+      transform: rotate(var(--leaf-rot, -14deg));
+      transition: opacity 900ms ease;
+      animation: canopyBlink 20s ease-in-out infinite;
+    }
+
+    .canopy-leaf.l1 { left: 22%; bottom: 46%; --leaf-rot: -20deg; animation-delay: 1.8s; }
+    .canopy-leaf.l2 { left: 40%; bottom: 52%; --leaf-rot: -8deg; animation-delay: 4.6s; }
+    .canopy-leaf.l3 { left: 58%; bottom: 48%; --leaf-rot: 10deg; animation-delay: 2.7s; }
+    .canopy-leaf.l4 { left: 72%; bottom: 56%; --leaf-rot: 24deg; animation-delay: 6.1s; }
+
+    .housegarden-page[data-growth-state="dormant"] {
+      --growth-stem-opacity: 0;
+      --growth-canopy-opacity: 0;
+    }
+
+    .housegarden-page[data-growth-state="tending"] {
+      --growth-stem-opacity: 0.7;
+      --growth-canopy-opacity: 0;
+    }
+
+    .housegarden-page[data-growth-state="growing"] {
+      --growth-stem-opacity: 0.92;
+      --growth-canopy-opacity: 0.72;
+    }
+
+    .housegarden-page[data-growth-state="blooming"] {
+      --growth-stem-opacity: 1;
+      --growth-canopy-opacity: 1;
+    }
+
+    .housegarden-page[data-growth-state="blooming"] .soil-layer,
+    .housegarden-page[data-growth-state="blooming"] .garden-growth-layer {
+      animation: gardenBreath var(--growth-breath-speed) ease-in-out infinite;
+    }
+
+    .housegarden-page[data-garden-season="spring"] {
+      --growth-soil-tint: rgba(123, 146, 86, 0.24);
+      --growth-stem-speed: 14s;
+      --growth-leaf-opacity-max: 0.1;
+    }
+
+    .housegarden-page[data-garden-season="summer"] {
+      --growth-soil-tint: rgba(124, 110, 68, 0.24);
+      --growth-breath-speed: 16s;
+      --growth-stem-speed: 18s;
+      --growth-leaf-opacity-max: 0.09;
+    }
+
+    .housegarden-page[data-garden-season="autumn"] {
+      --growth-soil-tint: rgba(102, 85, 59, 0.3);
+      --growth-stem-speed: 19s;
+      --growth-leaf-opacity-max: 0.12;
+    }
+
+    .housegarden-page[data-garden-season="winter"] {
+      --growth-soil-tint: rgba(120, 128, 140, 0.16);
+      --growth-breath-speed: 18s;
+      --growth-stem-speed: 24s;
+      --growth-leaf-opacity-max: 0.08;
+    }
+
+    .soil-grain {
+      position: absolute;
+      inset: 0;
+      opacity: calc(0.12 + (var(--soil-depth) * 0.2));
+      background-image:
+        repeating-linear-gradient(112deg, rgba(252, 238, 215, 0.06) 0 1px, rgba(46, 33, 24, 0) 1px 5px),
+        repeating-linear-gradient(40deg, rgba(21, 14, 8, 0.08) 0 2px, rgba(21, 14, 8, 0) 2px 7px);
+      mix-blend-mode: multiply;
+    }
+
+    .frame,
+    .root-line {
+      position: absolute;
+      border-radius: 999px;
+      border: 1px solid rgba(218, 180, 146, 0.14);
+    }
+
+    .frame.f1 { width: 210px; height: 210px; left: 10%; bottom: 14%; opacity: 0.08; }
+    .frame.f2 { width: 170px; height: 170px; right: 14%; bottom: 10%; opacity: 0.1; }
+    .root-line.r1 { width: 560px; height: 210px; left: -180px; bottom: 8px; transform: rotate(-8deg); }
+    .root-line.r2 { width: 640px; height: 238px; left: 30%; bottom: -34px; transform: rotate(7deg); }
+
+    .fossil {
+      position: absolute;
+      color: rgba(255, 220, 184, 0.18);
+      font-family: 'Cormorant Garamond', serif;
+      letter-spacing: 0.08em;
+      animation: fossilShimmer 18s ease-in-out infinite;
+    }
+
+    .fossil.x1 { left: 12%; bottom: 11%; }
+    .fossil.x2 { right: 18%; bottom: 8%; animation-delay: 7s; }
+
+    .shell {
+      position: relative;
+      z-index: 1;
+      max-width: 920px;
+      margin: 1.4rem auto 0;
+      padding: 0 1rem 2.8rem;
+    }
+
+    .intro {
+      text-align: center;
+      max-width: 760px;
+      margin: 2rem auto 2.8rem;
+      padding: 1.5rem 1.1rem;
+      border-radius: 14px;
+      border: 1px solid rgba(252, 227, 198, 0.24);
+      background: linear-gradient(160deg, rgba(68, 50, 45, 0.58), rgba(19, 16, 20, 0.34));
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .intro h1 {
+      margin: 0 0 0.4rem;
+      font-size: clamp(2rem, 4vw, 3.2rem);
+      line-height: 1.02;
+    }
+
+    .intro p {
+      margin: 0;
+      color: rgba(255, 226, 195, 0.82);
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: clamp(1rem, 2.1vw, 1.32rem);
+      animation: textBreath 9s ease-in-out infinite;
+    }
+
+    .divider {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      gap: 0.8rem;
+      align-items: center;
+      margin: 0 0 1rem;
+      color: rgba(255, 224, 193, 0.6);
+      font-family: 'Cormorant Garamond', serif;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .divider::before,
+    .divider::after {
+      content: "";
+      height: 1px;
+      background: linear-gradient(90deg, rgba(255, 223, 190, 0.08), rgba(255, 223, 190, 0.45), rgba(255, 223, 190, 0.08));
+    }
+
+    .room {
+      margin: 0 0 1rem;
+      padding: 1.3rem 1.15rem;
+      border-radius: 12px;
+      border: 1px solid rgba(251, 226, 197, 0.2);
+      background: linear-gradient(160deg, rgba(31, 24, 27, 0.62), rgba(55, 42, 39, 0.34));
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.16);
+      transition: opacity 420ms ease, transform 420ms ease, border-color 240ms ease;
+    }
+
+    .room.is-opened {
+      border-color: rgba(176, 199, 132, 0.46);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18), 0 0 0 1px rgba(107, 125, 74, 0.24);
+    }
+
+    .room:hover {
+      transform: translateY(-2px);
+      border-color: rgba(255, 226, 192, 0.34);
+    }
+
+    .room h2 {
+      margin: 0 0 0.46rem;
+      font-size: clamp(1.45rem, 2.8vw, 1.95rem);
+      color: var(--vault-chamber-structural, rgba(255, 221, 185, 0.96));
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+    }
+
+    .room h2::before {
+      content: "âœ¶";
+      font-size: 0.8rem;
+      color: rgba(255, 221, 185, 0.75);
+    }
+
+    .room p {
+      margin: 0;
+      color: var(--vault-chamber-body, rgba(253, 239, 223, 0.9));
+      line-height: 1.75;
+    }
+
+    .surface-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0.8rem;
+      margin-top: 0.9rem;
+    }
+
+    .surface-card {
+      border-radius: 10px;
+      border: 1px solid rgba(251, 226, 197, 0.2);
+      background: linear-gradient(160deg, rgba(17, 13, 15, 0.56), rgba(44, 32, 29, 0.24));
+      padding: 0.72rem 0.78rem;
+      color: rgba(253, 239, 223, 0.9);
+      min-height: 2.8rem;
+      display: flex;
+      align-items: center;
+      line-height: 1.45;
+      font-size: 0.92rem;
+    }
+
+    .surface-weather-stack {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 0.55rem;
+      margin-top: 0.75rem;
+    }
+
+    .surface-weather {
+      border-radius: 999px;
+      border: 1px solid rgba(251, 226, 197, 0.22);
+      background: rgba(24, 19, 21, 0.42);
+      text-align: center;
+      font-size: 0.76rem;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: rgba(253, 239, 223, 0.82);
+      padding: 0.32rem 0.4rem;
+      opacity: 0.35;
+      transition: opacity 280ms ease, border-color 280ms ease, box-shadow 280ms ease;
+    }
+
+    body[data-threshold-weather="fog"] #weather-fog,
+    body[data-threshold-weather="expand"] #weather-shimmer,
+    body[data-threshold-weather="collapse"] #weather-storm,
+    body[data-threshold-weather="soil"] #weather-soil {
+      opacity: 1;
+      border-color: rgba(255, 226, 192, 0.46);
+      box-shadow: 0 0 0 1px rgba(255, 226, 192, 0.22), 0 0 16px rgba(255, 226, 192, 0.22);
+    }
+
+    #spirit-animal,
+    #shimmer-glyphs,
+    #project-chamber {
+      margin-top: 0.78rem;
+    }
+
+    #project-chamber {
+      font-family: 'Manrope', sans-serif;
+      font-size: 0.84rem;
+      color: rgba(255, 226, 192, 0.9);
+      border: 1px dashed rgba(251, 226, 197, 0.28);
+      border-radius: 10px;
+      padding: 0.58rem 0.72rem;
+      background: rgba(16, 13, 15, 0.34);
+    }
+
+    @media (max-width: 720px) {
+      .surface-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .surface-weather-stack {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    .lantern-room {
+      position: relative;
+      background: linear-gradient(160deg, rgba(96, 78, 56, 0.54), rgba(28, 24, 29, 0.68));
+      box-shadow: 0 10px 26px rgba(0, 0, 0, 0.18), 0 0 24px rgba(255, 225, 179, 0.18);
+      overflow: hidden;
+    }
+
+    .lantern-room::after {
+      content: "";
+      position: absolute;
+      top: -36px;
+      right: -28px;
+      width: 156px;
+      height: 156px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(245, 241, 235, 0.34) 0%, rgba(245, 241, 235, 0.09) 40%, rgba(245, 241, 235, 0) 74%);
+      pointer-events: none;
+    }
+
+    .lantern-quote {
+      margin: 0 0 0.62rem;
+      font-style: italic;
+      color: rgba(255, 231, 204, 0.9);
+    }
+
+    .housegarden-page footer {
+      text-align: center;
+      margin-top: 2.4rem;
+      padding: 1.6rem 1rem;
+      border-top: 1px solid rgba(255, 221, 188, 0.26);
+      color: var(--vault-chamber-body, rgba(255, 224, 194, 0.7));
+      background: rgba(8, 7, 12, 0.52);
+    }
+
+    @keyframes driftGlyph {
+      0%, 100% { transform: translateY(0); opacity: 0.4; }
+      50% { transform: translateY(-7px); opacity: 0.72; }
+    }
+
+    @keyframes vineDrift {
+      0%, 100% { transform: translateY(0) rotate(var(--rot)); }
+      50% { transform: translateY(-4px) rotate(calc(var(--rot) + 1deg)); }
+    }
+
+    @keyframes hubPulse {
+      0%, 87%, 100% { opacity: 0.08; box-shadow: 0 0 0 rgba(255, 220, 185, 0); }
+      91% { opacity: 0.18; box-shadow: 0 0 15px rgba(255, 224, 187, 0.56); }
+      95% { opacity: 0.1; box-shadow: 0 0 9px rgba(255, 224, 187, 0.22); }
+    }
+
+    @keyframes fossilShimmer {
+      0%, 89%, 100% { opacity: 0.15; }
+      93% { opacity: 0.4; }
+    }
+
+    @keyframes stemDrift {
+      0%, 100% {
+        transform: translateY(0) scaleY(1);
+      }
+      50% {
+        transform: translateY(-7px) scaleY(1.03);
+      }
+    }
+
+    @keyframes canopyBlink {
+      0%, 100% {
+        opacity: calc(var(--growth-canopy-opacity) * var(--growth-leaf-opacity-max));
+      }
+      50% {
+        opacity: calc(var(--growth-canopy-opacity) * (var(--growth-leaf-opacity-max) + 0.03));
+      }
+    }
+
+    @keyframes gardenBreath {
+      0%, 100% {
+        transform: scaleY(0.97);
+      }
+      50% {
+        transform: scaleY(1.03);
+      }
+    }
+
+    @keyframes textBreath {
+      0%, 100% { opacity: 0.78; }
+      50% { opacity: 1; }
+    }
+
+    @media (max-width: 900px) {
+      .housegarden-page nav {
+        position: relative;
+      }
+
+      .intro {
+        margin-top: 1.1rem;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .shell {
+        padding: 0 0.8rem 2.4rem;
+      }
+
+      .intro {
+        padding: 1.2rem 0.9rem;
+      }
+
+      .soil-layer,
+      .seed-layer,
+      .vine-layer,
+      .dusk-layer,
+      .universe-layer {
+        transform: scale(1.03);
+      }
+    }

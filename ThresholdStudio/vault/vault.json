@@ -1,0 +1,92 @@
+{
+  "version": "1.0.0",
+  "substrate": "Threshold Vault",
+  "palette": {
+    "ink": "#2c241d",
+    "soil": "#6e5c4f",
+    "clay": "#8c7b6a",
+    "ash": "#c2b8a3",
+    "mist": "#f7f2e9",
+    "paper": "#fffaf4"
+  },
+  "glyphs": {
+    "primary": ["sigil", "ring", "branch", "thread", "seed"],
+    "states": ["awake", "drifting", "anchored", "resonant"]
+  },
+  "cycles": ["realization", "faith", "compost", "release", "ponder", "echo"],
+  "soil": ["humus", "loam", "root", "moss", "silt"],
+  "myth": ["house", "garden", "vault", "threshold", "crown"],
+  "ledger": ["trace", "record", "entry", "proof", "vow"],
+  "echoes": ["the garden remembers", "the threshold stays open", "the shimmer returns"],
+  "motifs": ["grain", "ring", "drift", "branch", "pulse"],
+  "textures": ["paper", "linen", "stone", "soil", "glass"],
+  "typography": {
+    "serif": "'Playfair Display', 'Cormorant Garamond', Georgia, serif",
+    "sans": "'Manrope', 'Inter', system-ui, sans-serif",
+    "mono": "'Source Code Pro', 'SFMono-Regular', Consolas, monospace"
+  },
+  "motion": {
+    "breathe": "vault-motion-breathe",
+    "drift": "vault-motion-drift",
+    "pulse": "vault-motion-pulse",
+    "reveal": "vault-motion-reveal",
+    "shimmer": "vault-motion-shimmer"
+  },
+  "rooms": {
+    "home": {
+      "palette": ["mist", "clay", "soil"],
+      "motif": ["ring", "drift"],
+      "motion": ["breathe", "reveal"]
+    },
+    "ethos": {
+      "palette": ["paper", "soil", "ash"],
+      "motif": ["grain"],
+      "motion": ["reveal"]
+    },
+    "glyphs": {
+      "palette": ["ink", "clay", "ash"],
+      "motif": ["branch", "ring"],
+      "motion": ["pulse", "shimmer"]
+    },
+    "wheel": {
+      "palette": ["mist", "clay", "ash"],
+      "motif": ["ring", "drift"],
+      "motion": ["drift", "pulse"]
+    },
+    "ledger": {
+      "palette": ["paper", "ink", "clay"],
+      "motif": ["grid", "record"],
+      "motion": ["reveal"]
+    },
+    "dialogues": {
+      "palette": ["paper", "soil", "mist"],
+      "motif": ["echo", "drift"],
+      "motion": ["breathe", "reveal"]
+    },
+    "mythology": {
+      "palette": ["ink", "ash", "mist"],
+      "motif": ["crown", "ring"],
+      "motion": ["shimmer", "pulse"]
+    },
+    "housegarden": {
+      "palette": ["soil", "clay", "ash"],
+      "motif": ["branch", "seed"],
+      "motion": ["drift", "breathe"]
+    },
+    "invitation": {
+      "palette": ["mist", "ash", "clay"],
+      "motif": ["threshold", "echo"],
+      "motion": ["breathe", "reveal"]
+    },
+    "contact": {
+      "palette": ["paper", "clay", "soil"],
+      "motif": ["trace"],
+      "motion": ["reveal"]
+    },
+    "thankyou": {
+      "palette": ["paper", "mist", "ash"],
+      "motif": ["echo", "ring"],
+      "motion": ["breathe"]
+    }
+  }
+}

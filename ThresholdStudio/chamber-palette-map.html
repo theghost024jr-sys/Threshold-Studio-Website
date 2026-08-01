@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Threshold Studio - Chamber Palette Map</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+  <link rel="stylesheet" href="/vault/vault.css" />
+  <style>
+    body.chamber-map-page {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 20% 12%, rgba(201, 196, 217, 0.16), transparent 28%),
+        radial-gradient(circle at 78% 8%, rgba(107, 125, 74, 0.14), transparent 30%),
+        linear-gradient(180deg, #12161d 0%, #191f28 48%, #0f1318 100%);
+      color: #f6f7f8;
+      font-family: var(--vault-font-sans, "Manrope", system-ui, sans-serif);
+      padding: 1.4rem 1rem 2.8rem;
+    }
+
+    .map-shell {
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+
+    .map-header {
+      border: 1px solid rgba(201, 196, 217, 0.28);
+      border-radius: 18px;
+      background: rgba(20, 24, 28, 0.58);
+      padding: 1.2rem 1rem;
+      margin-bottom: 1.1rem;
+    }
+
+    .map-header h1 {
+      margin: 0 0 0.35rem;
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      font-family: var(--vault-font-serif, "Cormorant Garamond", serif);
+      letter-spacing: 0.02em;
+    }
+
+    .map-header p {
+      margin: 0;
+      color: rgba(255, 255, 255, 0.84);
+    }
+
+    .map-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+      gap: 0.9rem;
+    }
+
+    .chamber-card {
+      border: 1px solid rgba(201, 196, 217, 0.24);
+      border-radius: 14px;
+      background: rgba(20, 24, 28, 0.52);
+      padding: 0.9rem;
+      box-shadow: 0 14px 34px -26px rgba(0, 0, 0, 0.7);
+    }
+
+    .chamber-card h2 {
+      margin: 0 0 0.45rem;
+      font-family: var(--vault-font-serif, "Cormorant Garamond", serif);
+      letter-spacing: 0.02em;
+      font-size: 1.45rem;
+    }
+
+    .swatch-row {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 0.5rem;
+      margin-bottom: 0.55rem;
+    }
+
+    .swatch {
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      padding: 0.48rem 0.44rem;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      line-height: 1.35;
+    }
+
+    .law-line {
+      font-size: 0.78rem;
+      letter-spacing: 0.03em;
+      color: rgba(255, 255, 255, 0.84);
+      margin: 0.28rem 0;
+    }
+
+    .room-line {
+      font-size: 0.76rem;
+      color: rgba(255, 255, 255, 0.72);
+      margin: 0.4rem 0 0;
+    }
+
+    .map-footer {
+      margin-top: 1rem;
+      font-size: 0.78rem;
+      color: rgba(255, 255, 255, 0.66);
+    }
+  </style>
+</head>
+<body class="chamber-map-page" data-vault-room="home">
+  <main class="map-shell">
+    <header class="map-header">
+      <h1>Chamber Palette Map</h1>
+      <p>Generated from the live Vault manifest. Each chamber exports palette, motion law, and text law.</p>
+    </header>
+
+    <section class="map-grid" id="chamberMapGrid" aria-live="polite"></section>
+    <p class="map-footer" id="mapFooter"></p>
+  </main>
+
+  <script src="/vault/vault.js"></script>
+  <script>
+    (function renderChamberMap() {
+      const grid = document.getElementById("chamberMapGrid");
+      const footer = document.getElementById("mapFooter");
+      const vaultApi = window.vault || window.ThresholdVault;
+
+      if (!grid) {
+        return;
+      }
+
+      if (!vaultApi || !vaultApi.manifest || !vaultApi.manifest.chambers) {
+        grid.innerHTML = "<p>Vault manifest not found.</p>";
+        return;
+      }
+
+      const chambers = vaultApi.manifest.chambers;
+      const rooms = vaultApi.manifest.rooms || {};
+      const roomByChamber = {};
+
+      Object.keys(rooms).forEach((roomKey) => {
+        const chamberName = rooms[roomKey] && rooms[roomKey].chamber ? rooms[roomKey].chamber : "breath";
+        if (!roomByChamber[chamberName]) {
+          roomByChamber[chamberName] = [];
+        }
+        roomByChamber[chamberName].push(roomKey);
+      });
+
+      const cardHtml = Object.keys(chambers).map((key) => {
+        const chamber = chambers[key];
+        const palette = chamber.palette || {};
+        const mappedRooms = roomByChamber[key] || [];
+        const swatches = [
+          ["bg", palette.bg],
+          ["surface", palette.surface],
+          ["accent", palette.accent],
+          ["structural", palette.structural],
+          ["body", palette.body]
+        ].filter((entry) => typeof entry[1] === "string");
+
+        const swatchHtml = swatches.map((entry) => {
+          const label = entry[0];
+          const value = entry[1];
+          return `<div class="swatch" style="background:${value}; color:${label === "body" ? "#1a1a1a" : "#ffffff"};">${label}<br>${value}</div>`;
+        }).join("");
+
+        return `
+          <article class="chamber-card" data-chamber="${key}">
+            <h2>${chamber.label || key}</h2>
+            <div class="swatch-row">${swatchHtml}</div>
+            <p class="law-line"><strong>Text law:</strong> ${chamber.textLaw || "default"}</p>
+            <p class="law-line"><strong>Motion law:</strong> breathe ${chamber.motionLaw && chamber.motionLaw.breathe ? chamber.motionLaw.breathe : "-"}, drift ${chamber.motionLaw && chamber.motionLaw.drift ? chamber.motionLaw.drift : "-"}, pulse ${chamber.motionLaw && chamber.motionLaw.pulse ? chamber.motionLaw.pulse : "-"}</p>
+            <p class="room-line"><strong>Rooms:</strong> ${mappedRooms.length ? mappedRooms.join(", ") : "(none)"}</p>
+          </article>
+        `;
+      }).join("");
+
+      grid.innerHTML = cardHtml;
+      footer.textContent = "Source: vault.manifest.chambers + vault.manifest.rooms";
+    })();
+  </script>
+</body>
+</html>
